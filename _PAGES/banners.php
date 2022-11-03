@@ -16,15 +16,15 @@
 </head>
 <body>
     <h1>Toms Banners</h1>
-
+    <hr/>
 <!-- ======================== Simple Banner ======================== -->
-
+    <h2>Simple Banner</h2>
     <link rel="stylesheet" type="text/css" href="../_INC/BANNERS/simple-banner/simple-banner.css"/>
     <?php
     $simple_banner_data = (object)[
         'banner_name' => "Banner Name",
         'background_image_url' => "../_LIBS/images/image2.jpg",
-        'content' => "Some Banner Text aaaaaaa aaaaaa",
+        'content' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         'button_content' => "Click Me",
         'button_url' => "#"
     ];
@@ -39,6 +39,7 @@
 
     
 <!-- ========================  ======================== -->
+    <hr/>
 </body>
 
 
