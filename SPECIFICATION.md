@@ -7,6 +7,6 @@
 - Able to be easily modified
 
 ## Design Approach
-- Component will take in a pre-formated array of data
+- Component will take in a pre-formated object of data
 - Component styling will use variables to control colors, font-family, font-size etc.
 - Each HTML Element will have its own variables set to global theme variables by default. eg. The navbar background-color is set to  var(--navbar-background-color) with --navbar-background-color being set to var(--clr-primary) by default.
