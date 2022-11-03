@@ -1,0 +1,22 @@
+.call-to-action-banner{
+    background-color: rgb(var(--background-main));
+    /*background-position: 50% 50%; /*Positions the background image from top left*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.cta-banner-content-wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cta-banner-content-wrapper h2 {
+    color: rgb(var(--text-main));
+}
+.cta-banner-content-wrapper a{
+    margin: 2rem 0 2rem 5rem;
+}

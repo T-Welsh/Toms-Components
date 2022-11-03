@@ -1,0 +1,22 @@
+.product-carousel {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.product-carousel-content-track {
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+}
+.carousel-card {
+ min-width: 20%;
+ max-width: 80%;
+ height: 200px;
+ padding: 1rem;
+ margin: 1rem;
+ background-color: burlywood;
+}

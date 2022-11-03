@@ -1,0 +1,47 @@
+
+.topnav {
+    background-color: rgb(var(--background-dark));
+    padding: 1rem 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.topnav *{
+    color: rgb(var(--text-light));
+}
+.topnav *:focus, .topnav *:hover {
+    color: rgb(var(--text-light));
+}
+.navbar-toggler {
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+.nav-links {
+    display: flex;
+    column-gap: 2rem;
+    list-style: none;
+}
+.navlink-item a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .collapsible-content {
+        width: 100%;
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-links {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .navbar-toggler {
+        display:flex;
+    }
+}

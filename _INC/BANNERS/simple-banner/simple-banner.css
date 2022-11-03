@@ -1,0 +1,33 @@
+.tc-simple-banner {
+    /*Margins and Padding*/
+    --tc-simple-banner-margin: var(--section-gap) var(--zero) var(--section-gap) var(--zero);
+    --tc-simplebanner-padding: var(--section-gap) var(--page-margin) var(--section-gap) var(--page-margin);
+
+    /*Background*/
+    --tc-simple-banner-background-size: cover;
+    --tc-simple-banner-background-position: center;
+
+    /*Text*/
+    --tc-simple-banner-text-color: var(--clr-text-light);
+    --tc-simple-banner-text-size: var(--fs-primary-headings);
+
+    width: 100%;
+    margin: var(--tc-simple-banner-margin);
+    padding: var(--tc-simplebanner-padding);
+    color: rgb(var(--tc-simple-banner-text-color));
+    display: flex;
+    justify-content: center;
+}
+.tc-simple-banner-inner {
+    display: flex;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tc-simple-banner-inner>span {
+    color: rgb(var(--tc-simple-banner-text-color));
+    font-size: var(--tc-simple-banner-text-size);
+    text-align: center;
+}
