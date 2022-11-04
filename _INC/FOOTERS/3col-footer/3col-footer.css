@@ -1,0 +1,23 @@
+.tc-3col-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.tc-3col-footer-content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 5vw;
+}
+.tc-3col-footer-content-card {
+    background-color: red;
+}
+
+@media only screen and (min-width: 768px) {
+    .tc-3col-footer-content-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .tc-3col-footer-content-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
