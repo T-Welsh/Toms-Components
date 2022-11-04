@@ -1,4 +1,11 @@
 .tc-3col-footer {
+    --tc-3col-footer-background-color: var(--clr-primary);
+    --tc-3col-footer-margin: var(--section-gap) 0 0 0;
+    --tc-3col-footer-padding: var(--section-gap) var(--page-margin);
+
+    margin: var(--tc-3col-footer-margin);
+    padding: var(--tc-3col-footer-padding);
+    background-color: rgb(var(--tc-3col-footer-background-color));
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -9,6 +16,7 @@
 }
 .tc-3col-footer-content-card {
     background-color: red;
+    height: 300px;
 }
 
 @media only screen and (min-width: 768px) {
