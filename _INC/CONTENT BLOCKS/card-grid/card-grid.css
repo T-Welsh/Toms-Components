@@ -1,0 +1,23 @@
+.tc-card-grid {
+    margin: var(--tc-card-grid-margin);
+    padding: var(--tc-card-grid-padding);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-items: center;
+}
+.tc-card-grid-main-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    column-gap: 5vw;
+    row-gap: 2rem;
+    justify-content: center;
+}
+.tc-card-grid-card {
+    border: var(--tc-card-grid-card-border);
+    border-radius: var(--tc-card-grid-card-border-radius);
+    max-width: var(--tc-card-grid-card-max-width);
+    padding: var(--tc-card-grid-card-padding);
+}
