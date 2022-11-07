@@ -10,8 +10,8 @@ $test_color = '255,0,255';
 :root {
     /*============ COLORS ============*/
     --temp: #211959;
-    --color-picker: rgb(181, 181, 181);
-    --clr-primary: 28, 28, 29;
+    --color-picker: rgb(21, 125, 182);
+    --clr-primary: 21, 125, 182;
     --clr-secondary: 255, 255, 255;
     --clr-accent: 248, 211, 51;
     --clr-highlight: 241, 129, 42;
@@ -70,20 +70,7 @@ $test_color = '255,0,255';
 }
 
 /*=*=*=*=*=*=*=*=*=*=*=*=* COMPONENT VARIABLES *=*=*=*=*=*=*=*=*=*=*=*=*/
-.tc-simple-banner {
-    /*Margins and Padding*/
-    --tc-simple-banner-margin: var(--section-gap) 0 var(--section-gap) 0;
-    --tc-simplebanner-padding: var(--section-gap) var(--page-margin) var(--section-gap) var(--page-margin);
-
-    /*Background*/
-    --tc-simple-banner-background-size: cover;
-    --tc-simple-banner-background-position: center;
-
-    /*Text*/
-    --tc-simple-banner-text-color: var(--clr-text-light);
-    --tc-simple-banner-text-size: var(--fs-primary-heading);
-}
-
+/*------ Content Blocks ------*/
 .tc-card-grid {
     /*Box Sizing*/
     --tc-card-grid-card-max-width: 300px;
@@ -96,4 +83,39 @@ $test_color = '255,0,255';
     /*Border and Background*/
     --tc-card-grid-card-border: 1px solid rgb(var(--clr-text-dark));
     --tc-card-grid-card-border-radius: 6px;
+}
+
+/*------ Banners ------*/
+.tc-simple-banner {
+  /*Margins and Padding*/
+  --tc-simple-banner-margin: var(--section-gap) 0 var(--section-gap) 0;
+  --tc-simplebanner-padding: var(--section-gap) var(--page-margin) var(--section-gap) var(--page-margin);
+
+  /*Background*/
+  --tc-simple-banner-background-size: cover;
+  --tc-simple-banner-background-position: center;
+
+  /*Text*/
+  --tc-simple-banner-text-color: var(--clr-text-light);
+  --tc-simple-banner-text-size: var(--fs-primary-heading);
+}
+
+/*------ Footers ------*/
+.tc-3col-footer {
+  /*Box Sizing*/
+  --tc-3col-footer-logo-width: 264px;
+
+  /*Margins and Padding*/
+  --tc-3col-footer-margin: var(--section-gap) 0 0 0;
+  --tc-3col-footer-padding: var(--section-gap) 0 0;
+  --tc-3col-footer-row-gap: 2rem;
+  --tc-3col-footer-logo-margin: 0 var(--page-margin);
+  --tc-3col-footer-content-container-margin: 0 var(--page-margin);
+  
+  /*Background*/
+  --tc-3col-footer-background-color: var(--clr-primary);
+
+  /*Text*/
+  --tc-3col-footer-text-color: var(--clr-text-light);
+  
 }

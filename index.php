@@ -16,7 +16,7 @@
     <script type="application/javascript" src="./_LIBS/js/jquery-3.6.0.min.js" defer></script>
 
     <!--My Styles-->
-    <link rel="stylesheet" href="./_LIBS/css/vars.css.php">
+    <link rel="stylesheet" href="./_LIBS/css/vars.php">
     <link rel="stylesheet" href="./_LIBS/css/main.css">
 
 </head>

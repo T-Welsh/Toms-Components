@@ -6,7 +6,8 @@ The banner name propery is for accesability purposes only and does not display v
 
 // DATA SCHEMA:
 $simple_banner_data = (object)[
-    'banner_name' => "Banner Name",
+    'id' => 'banner1'
+    'banner_heading' => "Banner Name",
     'background_image_url' => "../_LIBS/images/image2.jpg",
     'content' => "Some Banner Text",
     'button_content' => "Click Me",
@@ -16,7 +17,7 @@ $simple_banner_data = (object)[
 */
 ?>
 
-<section class=tc-simple-banner <?php 
+<section class="tc-simple-banner" id="<?php $simple_banner_data->id ;?>" <?php 
     if ($simple_banner_data->background_image_url) {
         echo "style='background: url($simple_banner_data->background_image_url);";
         echo "background-size: var(--tc-simple-banner-background-size);";
@@ -24,7 +25,7 @@ $simple_banner_data = (object)[
         echo "'";
     }
 ?>>
-    <h2 class="hidden"></h2>
+    <h2 class="hidden"><?php $simple_banner_data->banner_heading ;?></h2>
     <div class="tc-simple-banner-inner">
         <?php  
             echo "<span>$simple_banner_data->content</span>";

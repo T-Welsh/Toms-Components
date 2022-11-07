@@ -20,13 +20,6 @@ section {
 }
 
 /* ============ Utils ============ */
-.test{
-    width: 600px;
-    height: 500px;
-    color: red;
-    background-color: rgb(var(--cool-color));
-    font-family: monospace;
-}
 
 .placeholder{
     outline: 1px solid rgb(255, 0, 255, 0.8);;
@@ -46,14 +39,14 @@ section {
 .button {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    color: rgb(var(--text-alt));
-    background: rgb(var(--highlight));
+    color: rgb(var(--clr-text-dark));
+    background: rgb(var(--clr-accent));
     white-space: nowrap;
 }
 .button:hover, .button:focus{
     border-radius: 0.5rem;
-    color: rgb(var(--text-main));
-    background: rgb(var(--highlight));
+    color: rgb(var(--clr-text-dark));
+    background: rgb(var(--clr-neutral));
     box-shadow: 3px 3px 6px 4px #0000001b;
 }
 
