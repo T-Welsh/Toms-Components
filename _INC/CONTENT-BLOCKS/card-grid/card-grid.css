@@ -10,8 +10,8 @@
 .tc-card-grid-main-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    column-gap: 5vw;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 3vw;
     row-gap: 2rem;
     justify-content: center;
 }
@@ -20,4 +20,19 @@
     border-radius: var(--tc-card-grid-card-border-radius);
     max-width: var(--tc-card-grid-card-max-width);
     padding: var(--tc-card-grid-card-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .tc-card-grid-main-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .tc-card-grid-main-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

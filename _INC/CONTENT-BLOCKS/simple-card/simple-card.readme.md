@@ -1,0 +1,1 @@
+A card for stand-alone use or use with card grid

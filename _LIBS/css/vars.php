@@ -73,7 +73,7 @@ $test_color = '255,0,255';
 /*------ Content Blocks ------*/
 .tc-card-grid {
     /*Box Sizing*/
-    --tc-card-grid-card-max-width: 300px;
+    --tc-card-grid-card-max-width: 100%;
 
     /*Margins and Padding*/
     --tc-card-grid-margin: var(--section-gap) 0;

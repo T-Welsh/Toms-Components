@@ -3,13 +3,14 @@
 Format data as schema below and place directly above the include call on parent page.
 
 $card_grid_data = (object)[
-    'heading' => "HTML block containing section heading/blurb"
-    'cards' => An array of card objects
+    'id' => "unique-id",
+    'heading' => "HTML block containing section heading/blurb",
+    'cards' => [An array of card objects]
 ]
 */
 ?>
 
-<section class="tc-card-grid">
+<section class="tc-card-grid" id="<?php echo $card_grid_data->id ;?>">
     <header class="tc-card-grid-heading-container">
         <?php
             echo $card_grid_data->heading;
