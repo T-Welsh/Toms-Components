@@ -26,7 +26,7 @@
     </header>
     <nav>
         <ul>
-            <li><a href="./_PAGES/navigation_bars.php">Navigation Bars</a></li>
+            <li><a href="./_PAGES/headers.php">Headers</a></li>
             <li><a href="./_PAGES/heros.php">Heros</a></li>
             <li><a href="./_PAGES/content_blocks.php">Content Blocks</a></li>
             <li><a href="./_PAGES/galleries.php">Galleries</a></li>
@@ -35,22 +35,5 @@
             <li><a href="./_PAGES/footers.php">Footers</a></li>
         </ul>
     </nav>
-    <!-- NAVBAR -->
-    <?php include './_INC/Navbar/navbar.php' ?>
-    <hr>
-    <?php 
-
-    // CALL TO ACTION
-    $cta_background_url = "./_LIBS/images/image1.jpg";
-    include "./_INC/Call-to-action-banner/call-to-action-banner.php" 
-    ?>
-    <hr>
-    <?php 
-
-    // CARD CAROUSEL
-    $card_carousel_id = 1;
-    include './_INC/Product-carousel/product-carousel.php' 
-    ?>
-
 </body>
 </html>

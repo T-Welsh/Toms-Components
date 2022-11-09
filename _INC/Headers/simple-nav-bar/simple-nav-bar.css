@@ -1,0 +1,57 @@
+.tc-simple-nav-bar {
+    --tc-simple-nav-bar-background-color: var(--clr-primary);
+    --tc-simple-nav-bar-color: var(--clr-text-light);
+
+    --tc-simple-nav-bar-padding: 0 1.5rem;
+    --tc-simple-nav-bar-social-bar-padding: 0.4rem 0;
+
+    --tc-simple-nav-bar-font-size: 1.2rem;
+
+    padding: var(--tc-simple-nav-bar-padding);
+    background-color: rgb(var(--tc-simple-nav-bar-background-color));
+    
+}
+.tc-simple-nav-bar * {
+    color: rgb(var(--tc-simple-nav-bar-color));
+    font-size: var(--tc-simple-nav-bar-font-size);
+}
+.tc-simple-nav-bar-social-bar {
+    padding: var(--tc-simple-nav-bar-social-bar-padding);
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1rem;
+    overflow: visible;
+}
+.tc-simple-nav-bar-social-bar a:hover{
+    color: rgb(var(--clr-accent));
+    overflow: visible;
+}
+.tc-simple-nav-bar-social-bar a:hover svg{
+    color: rgb(var(--clr-accent));
+    rotate: 7deg;
+    scale: 1.1;
+    transform-origin: left;
+}
+.tc-simple-nav-bar-social-bar a:hover svg > *{
+    color: rgb(var(--clr-accent));
+}
+.tc-simple-nav-bar-social-bar svg{
+    width: auto;
+    height: var(--tc-simple-nav-bar-font-size);
+    overflow: visible;
+}
+
+.tc-simple-nav-bar-logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tc-simple-nav-bar-nav-menu {
+    background-color: magenta;
+    max-width: 60%;
+}
+.tc-simple-nav-bar-nav-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1.5rem;
+}
