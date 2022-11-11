@@ -1,0 +1,181 @@
+.tc-simple-navbar {
+    --tc-simple-nav-bar-background-color: var(--clr-primary);
+    --tc-simple-nav-bar-color: var(--clr-text-light);
+    --tc-simple-nav-bar-dropdown-background-color: 255, 255, 255;
+    --tc-simple-nav-bar-dropdown-text-color: var(--clr-text-dark);
+
+    --tc-simple-nav-bar-padding: 0;
+    --tc-simple-navbar-social-bar-padding: 0.4rem 1rem;
+
+    --tc-simple-nav-bar-font-size: 1.2rem;
+    --tc-simple-navbar-social-bar-font-size: 1rem;
+    --tc-simple-navbar-social-bar-icon-size: 1.2rem;
+
+
+    position: relative;
+    z-index: 1000;
+    padding: var(--tc-simple-nav-bar-padding);
+    background-color: rgb(var(--tc-simple-nav-bar-background-color));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.tc-simple-navbar *{
+    color: rgb(var(--tc-simple-nav-bar-color));
+    font-size: var(--tc-simple-nav-bar-font-size);
+}
+
+/*------------ Social Bar ------------*/
+.tc-simple-nav-bar-social-bar {
+    padding: var(--tc-simple-navbar-social-bar-padding);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1rem;
+    overflow: visible;
+}
+.tc-simple-nav-bar-social-bar a {
+    font-size: var(--tc-simple-navbar-social-bar-font-size);
+    white-space: nowrap;
+}
+.tc-simple-nav-bar-social-bar a:hover{
+    color: rgb(var(--clr-accent));
+    overflow: visible;
+}
+.tc-simple-nav-bar-social-bar a:hover svg{
+    color: rgb(var(--clr-accent));
+    rotate: 7deg;
+    scale: 1.1;
+    transform-origin: left;
+}
+.tc-simple-nav-bar-social-bar a:hover svg > *{
+    color: rgb(var(--clr-accent));
+}
+.tc-simple-nav-bar-social-bar svg{
+    width: auto;
+    height: var(--tc-simple-navbar-social-bar-icon-size);
+    overflow: visible;
+}
+.tc-simple-nav-bar-social-bar-icon-wrapper {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .tc-simple-nav-bar-social-bar {
+        justify-content: flex-end;
+    }
+    .tc-simple-nav-bar-social-bar {
+        flex-wrap: nowrap;
+    }
+    .tc-simple-nav-bar-social-bar-icon-wrapper {
+        display: inline;
+    }
+}
+
+/*------------ Toggler ------------*/
+.tc-simple-navbar-navbar-toggler {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+.tc-simple-navbar-navbar-toggler-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/*------------ Logo ------------*/
+.tc-simple-navbar-logo-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------ Collapsible Content ------------*/
+.tc-simple-navbar-nav-links {
+    padding: 1rem;
+    display: flex;
+    column-gap: 4rem;
+    list-style: none;
+}
+.tc-simple-navbar-navlink-item a, .tc-simple-navbar-navlink-item button {
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+    white-space: nowrap;
+}
+.tc-simple-navbar-navlink-item a:hover, .tc-simple-navbar-navlink-item button:hover {
+    color: rgb(var(--clr-accent));
+}
+
+@media only screen and (min-width: 400px){
+    .tc-simple-navbar-logo-wrapper {
+        padding-left: 1rem;
+        width: auto;
+        display: flex;
+        justify-content: left;
+    }
+    .tc-simple-navbar-navbar-toggler {
+        width: fit-content;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .tc-simple-navbar-collapsible-content {
+        width: 100%;
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .tc-simple-navbar-nav-links {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .tc-simple-navbar-navbar-toggler {
+        align-self: center;
+        margin-right: 1rem;
+        display:flex;
+        justify-content: center;
+    }
+}
+
+/*==============================================*/
+
+.tc-simple-navbar-dropdown {
+
+}
+.tc-simple-navbar-dropdown-menu{
+    display: none;
+    padding-top: 1rem;
+}
+.tc-simple-navbar-dropdown-menu * {
+    color: rgb(var(--tc-simple-nav-bar-dropdown-text-color))
+}
+.tc-simple-navbar-dropdown-menu > ul > *:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 992px){
+    .tc-simple-navbar-dropdown {
+        position: relative;
+    }
+    .tc-simple-navbar-dropdown-menu{
+        position: absolute;
+        padding: 1.5rem;
+        width: fit-content;
+        border-radius: .25rem;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+        background-color: rgb(var(--tc-simple-nav-bar-dropdown-background-color));
+    }
+    .tc-simple-navbar-dropdown-menu > ul > *:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+}
