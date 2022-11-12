@@ -1,0 +1,13 @@
+/*Basict styling to make viewing components easier*/
+html {
+    background-color: rgba(var(--clr-highlight));
+    background-color: rgba(var(--clr-accent));
+    background-color: rgba(var(--clr-secondary));
+    background-color: rgba(var(--clr-primary));
+    background-color: rgba(0, 0, 0);
+    background-color: rgba(255, 255, 255);
+}
+
+.component-label {
+    margin: 2rem;
+}

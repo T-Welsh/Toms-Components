@@ -9,9 +9,20 @@ $test_color = '255,0,255';
 
 :root {
     /*============ COLORS ============*/
-    --temp: #211959;
+    /*--temp: #211959;
     --color-picker: rgb(21, 125, 182);
     --clr-primary: 21, 125, 182;
+    --clr-secondary: 255, 255, 255;
+    --clr-accent: 248, 211, 51;
+    --clr-highlight: 241, 129, 42;
+    --clr-neutral: 255, 252, 243;
+    --clr-text-light: 255, 255, 255;
+    --clr-text-dark: 28, 28, 29;*/
+
+    /*============ COLORS - My Theme ============*/
+    --temp: #211959;
+    --color-picker: rgb(21, 125, 182);
+    --clr-primary: 6, 11, 25;
     --clr-secondary: 255, 255, 255;
     --clr-accent: 248, 211, 51;
     --clr-highlight: 241, 129, 42;

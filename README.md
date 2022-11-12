@@ -17,14 +17,7 @@
 - fullwidth: width property to 100vw
 - button: styles element to look like a button (use with hover pseudo-class). Default vars:--text-alt, --highlight.
 
-## Responsive Breakpoints
-- Max 600px -Extra Small (Phones)
-- Min 600px -Portrait tablets & large phones
-- Min 768px -Landscape Tablets
-- Min 992px -Small Laptops
-- Min 1200px -Large Laptops & Desktops
-
 ## TODO:
-- [] Check for, and remove gap;
-- []finish Navbar
-- []write readme for Product Carousel -create blog page
+* [] Add front end tools to preview theme changes
+* [] Add feature to select components and export a package containing required files and generated vars.php file
+* []

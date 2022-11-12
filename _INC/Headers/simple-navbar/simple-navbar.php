@@ -158,7 +158,7 @@
             <?php
             
             foreach ($simple_nav_bar_data->nav_links as $link) {
-                if ($link->children) {
+                if (count($link->children) > 0) {
                     echo '<li class="tc-simple-navbar-navlink-item">';
                         echo '<div class="tc-simple-navbar-dropdown" data-nav-dropdown aria-expanded="false">';
                             echo '<button class="" data-nav-dropdown-button>';
