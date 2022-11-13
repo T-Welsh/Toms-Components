@@ -109,4 +109,11 @@
             ?>
         </ul>
     </div>
+
+    <div class='tc-girder-navbar-tray-btn-wrapper'>
+        <button class='tc-girder-navbar-tray-btn' >
+            <div></div>
+            <div></div>
+        </button>
+    </div>
 </header>

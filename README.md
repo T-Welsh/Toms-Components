@@ -20,4 +20,4 @@
 ## TODO:
 * [] Add front end tools to preview theme changes
 * [] Add feature to select components and export a package containing required files and generated vars.php file
-* []
+* [] Add Theme pages to demo complimentary components

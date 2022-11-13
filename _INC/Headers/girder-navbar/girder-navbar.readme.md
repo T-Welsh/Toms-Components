@@ -28,4 +28,5 @@ Takes in data in the following format...
 ### Processwire
 
 ## Todo
-* [ ] Make responsive
+* [ ] add modal on contact details click
+* [ ] add dropdown menu support
