@@ -22,6 +22,14 @@
 
     <hr/>
 <!-- ========================  ======================== -->
-
+    <h2 class='component-label'>Simple Contact Form</h2>
+    <!-- <link rel="stylesheet" type="text/css" href="../_INC/Misc/simple-contact-form/simple-contact-form.css"/> -->
+    <?php
+        $simple_contact_form_data = (object)[
+            'id' => 'simple-contact-form-1',
+            'terms_url' => '#'
+        ];
+        include "../_INC/Misc/simple-contact-form/simple-contact-form.php";
+    ?>  
     <hr/>
 </body>
