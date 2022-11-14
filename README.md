@@ -1,4 +1,7 @@
+# Toms Components
 
+## Requirements
+- jQuery
 
 ## Notes
 - PHP include components are located in the /_INC folder
@@ -18,6 +21,7 @@
 - button: styles element to look like a button (use with hover pseudo-class). Default vars:--text-alt, --highlight.
 
 ## TODO:
-* [] Add front end tools to preview theme changes
-* [] Add feature to select components and export a package containing required files and generated vars.php file
-* [] Add Theme pages to demo complimentary components
+* [ ] Add front end tools to preview theme changes
+* [ ] Add feature to select components and export a package containing required files and generated vars.php file
+* [ ] Add Theme pages to demo complimentary components
+* [ ] Add complete readmes for individual components
