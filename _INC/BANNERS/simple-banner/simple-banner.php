@@ -17,7 +17,7 @@ $simple_banner_data = (object)[
 */
 ?>
 
-<section class="tc-simple-banner" id="<?php $simple_banner_data->id ;?>" <?php 
+<section class="tc-simple-banner" id="<?php echo $simple_banner_data->id ;?>" <?php 
     if ($simple_banner_data->background_image_url) {
         echo "style='background: url($simple_banner_data->background_image_url);";
         echo "background-size: var(--tc-simple-banner-background-size);";

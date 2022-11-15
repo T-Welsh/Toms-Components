@@ -8,7 +8,11 @@
     <title>Toms Components | <?php echo ucwords(basename($_SERVER['REQUEST_URI'], ".php"));?></title>
 
     <!--jQuery-->
-    <script type="application/javascript" src="../_LIBS/js/jquery-3.6.0.min.js" defer></script>
+    <script type="application/javascript" src="../_DEPENDANCIES/jQuery/jquery-3.6.0.min.js" defer></script>
+
+    <!--Slick js-->
+    <link rel="stylesheet" href="../_DEPENDANCIES/slick/slick.css">
+    <script type="application/javascript" src="../_DEPENDANCIES/slick/slick.min.js" defer></script>
 
     <!--My Styles-->
     <link rel="stylesheet" href="../_LIBS/css/tc-styling-control.css">

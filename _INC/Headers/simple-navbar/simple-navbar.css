@@ -1,4 +1,5 @@
 .tc-simple-navbar {
+/*
     --tc-simple-nav-bar-background-color: var(--clr-primary);
     --tc-simple-nav-bar-color: var(--clr-text-light);
     --tc-simple-nav-bar-dropdown-background-color: 255, 255, 255;
@@ -11,6 +12,8 @@
     --tc-simple-navbar-social-bar-font-size: 1rem;
     --tc-simple-navbar-social-bar-icon-size: 1.2rem;
 
+    --tc-simple-nav-bar-logo-max-width: 400px;
+*/
 
     position: relative;
     z-index: 1000;
@@ -92,6 +95,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.tc-simple-navbar-logo-wrapper {
+    max-width: var(--tc-simple-nav-bar-logo-max-width);
 }
 
 /*------------ Collapsible Content ------------*/

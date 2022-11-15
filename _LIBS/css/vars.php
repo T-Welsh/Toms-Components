@@ -81,6 +81,28 @@ $test_color = '255,0,255';
 }
 
 /*=*=*=*=*=*=*=*=*=*=*=*=* COMPONENT VARIABLES *=*=*=*=*=*=*=*=*=*=*=*=*/
+/*------ Headers ------*/
+.tc-simple-navbar {
+    /* Margins and Padding*/
+    --tc-simple-nav-bar-padding: 0;
+    --tc-simple-navbar-social-bar-padding: 0.4rem 1rem;
+
+
+    /*Text*/
+    --tc-simple-nav-bar-font-size: 1.2rem;
+    --tc-simple-nav-bar-color: var(--clr-text-light);
+    --tc-simple-navbar-social-bar-font-size: 1rem;
+    --tc-simple-navbar-social-bar-icon-size: 1.2rem;
+    --tc-simple-nav-bar-dropdown-text-color: var(--clr-text-dark);
+
+    /*Box Sizing*/
+    --tc-simple-nav-bar-logo-max-width: 400px;
+
+    /*Background*/
+    --tc-simple-nav-bar-background-color: var(--clr-primary);
+    --tc-simple-nav-bar-dropdown-background-color: 255, 255, 255;
+}
+
 /*------ Content Blocks ------*/
 .tc-card-grid {
     /*Box Sizing*/

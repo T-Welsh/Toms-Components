@@ -15,7 +15,9 @@
                 'lat' => '52.230701',
                 'lng' => '0.862048',
                 'zoom' => '11'
-            ]
+            ],
+            'script' => '../_INC/Misc/simple-google-map/simple-google-map.js',
+            'style' => '../_INC/Misc/simple-google-map/simple-google-map.css'
         ];
         include "../_INC/Misc/simple-google-map/simple-google-map.php";
     ?>  
@@ -23,7 +25,6 @@
     <hr/>
 <!-- ========================  ======================== -->
     <h2 class='component-label'>Simple Contact Form</h2>
-    <!-- <link rel="stylesheet" type="text/css" href="../_INC/Misc/simple-contact-form/simple-contact-form.css"/> -->
     <?php
         $simple_contact_form_data = (object)[
             'id' => 'simple-contact-form-1',

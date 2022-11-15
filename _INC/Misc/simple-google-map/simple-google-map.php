@@ -4,8 +4,8 @@
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
-<link rel="stylesheet" type="text/css" href="../_INC/Misc/simple-google-map/simple-google-map.css" />
-<script type="module" src="../_INC/Misc/simple-google-map/simple-google-map.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo $simple_google_map_data->style ;?>" />
+<script type="module" src="<?php echo $simple_google_map_data->script ;?>"></script>
 
 <!--The div element for the map -->
 <section class="simple-google-map" id="<?php echo $simple_google_map_data->id ;?>"></section>
