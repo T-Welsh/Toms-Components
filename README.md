@@ -1,7 +1,8 @@
 # Toms Components
 
-## Requirements
+## Dependancies
 - jQuery
+- slick js - required for carousel functionality
 
 ## Notes
 - PHP include components are located in the /_INC folder
@@ -27,4 +28,10 @@
 * [ ] Add complete readmes for individual components
 
 ## Processwire
-Generic processwire templates will contain the reqired fields so different styled components can be used interchangeably
+Generic processwire templates will contain the required fields so different styled components can be used interchangeably
+
+## File Structure
+main.css - contains css reset and utility classes
+vars.php - contains css variables
+toms-components.js - contains general javascript used by multiple components
+_INC - Folder containing the individual component folders

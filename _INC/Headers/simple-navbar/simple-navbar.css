@@ -34,6 +34,7 @@
 .tc-simple-nav-bar-social-bar {
     padding: var(--tc-simple-navbar-social-bar-padding);
     width: 100%;
+    min-height: 42px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -98,6 +99,7 @@
 }
 .tc-simple-navbar-logo-wrapper {
     max-width: var(--tc-simple-nav-bar-logo-max-width);
+    max-height: var(--tc-simple-nav-bar-logo-max-height);
 }
 
 /*------------ Collapsible Content ------------*/

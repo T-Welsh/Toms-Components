@@ -31,14 +31,16 @@
 */
 ?>
 
-<section class='tc-carousel-gallery' id="<?php echo $carousel_gallery_data->id ;?>">
+<section class="tc-carousel-gallery" id="<?php echo $carousel_gallery_data->id ;?>" data-modal-open='false'>
     <h2><?php echo $carousel_gallery_data->heading ;?></h2>
-    <div class='tc-carousel-gallery-content-container'>
+    <div class="tc-carousel-gallery-content-container">
         <?php
             foreach($carousel_gallery_data->cards as $card) {
                 echo "<div class='tc-carousel-gallery-card'>" ;
-                    //echo "<img src='{$card->url}' alt='{$card->alt}'>" ;
-                    echo "<h3>{$card->alt}</h3>";
+                    echo "<img src='{$card->url}' alt='{$card->alt}'>" ;
+                    echo "<dialog class='tc-carousel-gallery-card-modal' data-carousel-modal>";
+                        echo "<img src='{$card->url}' alt='{$card->alt}'>";
+                    echo "</dialog>";
                 echo "</div>" ;
             }
         ?>

@@ -97,6 +97,7 @@ $test_color = '255,0,255';
 
     /*Box Sizing*/
     --tc-simple-nav-bar-logo-max-width: 400px;
+    --tc-simple-nav-bar-logo-max-height: 100px;
 
     /*Background*/
     --tc-simple-nav-bar-background-color: var(--clr-primary);
@@ -131,6 +132,22 @@ $test_color = '255,0,255';
   /*Text*/
   --tc-simple-banner-text-color: var(--clr-text-light);
   --tc-simple-banner-text-size: var(--fs-primary-heading);
+}
+
+/*------ Galleries ------*/
+.tc-carousel-gallery {
+  /*Box Sizing*/  
+  --tc-carousel-gallery-card-aspect-ratio: 16/9;
+
+  /*Background*/
+  --tc-carousel-gallery-background-color: var(--clr-primary);
+
+  /*Text*/
+  --tc-carousel-gallery-heading-color: var(--clr-text-light);
+  --tc-carousel-gallery-heading-font-size: var(--fs-secondary-heading);
+
+  /*Misc*/
+  --tc-carousel-gallery-dots-color: var(--clr-text-light);
 }
 
 /*------ Footers ------*/

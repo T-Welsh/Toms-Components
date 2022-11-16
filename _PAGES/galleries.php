@@ -7,6 +7,8 @@
     <hr/>
     <!-- ======================== Carousel Gallery ======================== -->
     <h2 class='component-label'>Carousel Gallery</h2>
+    <link rel="stylesheet" type="text/css" href="../_INC/Galleries/carousel-gallery/carousel-gallery.css"/>
+    <script type="application/javascript" src="../_INC/Galleries/carousel-gallery/carousel-gallery.js" defer></script>
     <?php
         $carousel_gallery_data = (object)[
             'id' => 'Gallery 1',

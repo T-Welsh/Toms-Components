@@ -12,6 +12,7 @@
 
     <!--Slick js-->
     <link rel="stylesheet" href="../_DEPENDANCIES/slick/slick.css">
+    <!-- <link rel="stylesheet" href="../_DEPENDANCIES/slick/slick-theme.css"> -->
     <script type="application/javascript" src="../_DEPENDANCIES/slick/slick.min.js" defer></script>
 
     <!--My Styles-->
@@ -19,4 +20,6 @@
     <link rel="stylesheet" href="../_LIBS/css/vars.php">
     <link rel="stylesheet" href="../_LIBS/css/main.css">
 
+    <!-- MY Scripts -->
+    <script type="application/javascript" src="../_LIBS/js/toms-components.js" defer></script>
 </head>
