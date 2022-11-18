@@ -30,6 +30,17 @@ $test_color = '255,0,255';
     --clr-text-light: 255, 255, 255;
     --clr-text-dark: 28, 28, 29;
 
+    /*============ COLORS - Southwold ============*/
+    --temp: #211959;
+    --color-picker: rgb(21, 125, 182);
+    --clr-primary: 55, 74, 124;
+    --clr-secondary: 236, 236, 236;
+    --clr-accent: 248, 211, 51;
+    --clr-highlight: 241, 129, 42;
+    --clr-neutral: 255, 252, 243;
+    --clr-text-light: 255, 255, 255;
+    --clr-text-dark: 101, 101, 101;
+
     /*============ FONT VARIABLES & SETTINGS ============*/
     font-size: 16px;
     --ff-primary: sans-serif;
@@ -105,6 +116,11 @@ $test_color = '255,0,255';
 }
 
 /*------ Content Blocks ------*/
+.tc-content-block {
+    --tc-content-block-margin: var(--section-gap) 0;
+    --tc-content-block-padding: var(--section-gap) var(--page-margin);
+}
+
 .tc-card-grid {
     /*Box Sizing*/
     --tc-card-grid-card-max-width: 100%;

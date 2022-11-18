@@ -12,6 +12,7 @@
     
         $content_block_data = (object) [
             'id' => 'unique-id-here',
+            'background_color' => '',
             'heading' => 'HTML element(s) containing the content to be echoed inside of the heading container',
             'column1' => 'HTML element(s) containing the content to be echoed inside of the content container',
             'column2' => 'HTML element(s) containing the content to be echoed inside of the content container',
