@@ -1,4 +1,6 @@
 .tc-simple-banner {
+    position: relative;
+    z-index: 920;
     width: 100%;
     margin: var(--tc-simple-banner-margin);
     padding: var(--tc-simplebanner-padding);
@@ -6,7 +8,17 @@
     display: flex;
     justify-content: center;
 }
+.tc_banner-image-overlay{
+    position: absolute;
+    z-index: 922;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 .tc-simple-banner-inner {
+    position: relative;
+    z-index: 924;
     display: flex;
     column-gap: 2rem;
     row-gap: 1.5rem;

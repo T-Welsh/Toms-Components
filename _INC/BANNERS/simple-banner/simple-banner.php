@@ -9,6 +9,7 @@ $simple_banner_data = (object)[
     'id' => 'banner1'
     'banner_heading' => "Banner Name",
     'background_image_url' => "../_LIBS/images/image2.jpg",
+    'overlay_color' => 'transparent',
     'content' => "Some Banner Text",
     'button_content' => "Click Me",
     'button_url' => "#"
@@ -26,6 +27,14 @@ $simple_banner_data = (object)[
     }
 ?>>
     <h2 class="hidden"><?php $simple_banner_data->banner_heading ;?></h2>
+
+    <div class="tc_banner-image-overlay" 
+    <?php
+        echo "style='background: {$simple_banner_data->overlay_color}'";
+    ?>
+    >
+    </div>
+    
     <div class="tc-simple-banner-inner">
         <?php  
             echo "<span>$simple_banner_data->content</span>";

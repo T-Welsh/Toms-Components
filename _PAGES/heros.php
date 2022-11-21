@@ -12,6 +12,7 @@
         $simple_hero_data = (object)[
             'id' => 'id-1',
             'image_url' => "../_LIBS/images/image4.jpg",
+            'overlay_color' => 'transparent',
             'hero_content' => '<h1>Hero Text</h1>'
         ];
         include "../_INC/Heros/simple-hero/simple-hero.php";

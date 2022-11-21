@@ -28,7 +28,9 @@
     <?php
         $simple_contact_form_data = (object)[
             'id' => 'simple-contact-form-1',
-            'terms_url' => '#'
+            'terms_url' => '#',
+            'background_image_url' => '../_LIBS/images/image2.jpg',
+            'background_overlay' => 'transparent'
         ];
         include "../_INC/Misc/simple-contact-form/simple-contact-form.php";
     ?>  

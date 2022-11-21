@@ -1,10 +1,10 @@
-.t_hero {
+.tc_hero {
     position: relative;
     z-index: 900;
     height: 50vh;
     color: #fff;
 }
-.t_hero-image-wrapper {
+.tc_hero-image-wrapper {
     position: absolute;
     z-index: 920;
     top: 0;
@@ -16,7 +16,15 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.t_hero-content-container {
+.tc_hero-image-overlay {
+    position: absolute;
+    z-index: 922;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.tc_hero-content-container {
     position: relative;
     z-index: 930;
     width: 100%;

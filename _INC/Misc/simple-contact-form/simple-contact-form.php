@@ -1,9 +1,33 @@
 <?php
     /* Clone a copy of the simple form on Jot Forms and paste the code in the marked section below*/
+
+    //schema
+    /*
+        $simple_contact_form_data = (object)[
+            'id' => 'simple-contact-form-1',
+            'terms_url' => '#'
+            'background_image_url' => '../_LIBS/images/image2.jpg',
+            'background_overlay' => 'transparent'
+        ];
+    */
 ?>
 
-<section class='tc-simple-contact-form' id="<?php echo $simple_contact_form_data->id ;?>">
-
+<section class='tc-simple-contact-form' id="<?php echo $simple_contact_form_data->id ;?>"
+<?php
+    if ($simple_contact_form_data->background_image_url) {
+      echo "style='background: url($simple_contact_form_data->background_image_url);";
+      echo "background-repeat: no-repeat;";
+      echo "background-position: center;";
+      echo "background-size: cover;";
+      echo "'";
+    }
+?>
+>
+<div class='tc-simple-contact-form-overlay'
+style='
+  background-color: <?php echo $simple_contact_form_data->background_overlay ;?>;
+'>
+</div>
 <!-- ============ Jot Form Embedded Coded Goes Here ============ -->
 
 <script src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.37132" type="text/javascript"></script>
@@ -228,6 +252,10 @@ for (var i = 0; i < all_spc.length; i++)
     .form-input-wide {
         max-width: 90vw;
     }
+    .jotform-form {
+      position: relative;
+      z-index: 904;
+    }
 </style>
 <!-- Toms Component Styling -->
 <style>
@@ -235,6 +263,8 @@ for (var i = 0; i < all_spc.length; i++)
         --simple-contact-form-background-color: var(--clr-secondary);
         --simple-contact-form-text-color: var(--clr-text-dark);
 
+        position: relative;
+        z-index: 900;
         background-color: rgb(var(--simple-contact-form-background-color));
     }
     .tc-simple-contact-form * {
@@ -244,7 +274,14 @@ for (var i = 0; i < all_spc.length; i++)
         min-width: 300px;
         width: 100%
     }
-
+    .tc-simple-contact-form-overlay {
+      position: absolute;
+      z-index: 902;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
 </style>
 
 </section>
