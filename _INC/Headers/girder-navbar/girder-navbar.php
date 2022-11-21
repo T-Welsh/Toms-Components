@@ -1,15 +1,45 @@
 <?php
 /*
     // DATA SCHEMA:
-
-
+    $girder_nav_bar_data = (object)[
+            'id' => "nav-bar-1",
+            'logo_url' => '../_LIBS/images/logoipsum-215.svg',
+            'home_url' => '#',
+            'nav_links_1' => [
+                (object)[
+                    'name' => 'About',
+                    'link_url' => '#',
+                    'children' => []
+                ],
+                (object)[
+                    'name' => 'Portfolio',
+                    'link_url' => '#',
+                    'children' => []
+                ]
+                ],
+                'facebook_url' => '#',
+                'Instagram_url' => '#',
+                'Twitter_url' => '#',
+                'Linkedin_url' => '#',
+                'Pinterest_url' => '#',
+                'YouTube_url' => '#',
+                'CheckaTrade_url' => '',
+                'Houzz_url' => '' ,
+                'nav_links_2' => [
+                    (object)[
+                        'name' => 'Contact',
+                        'link_url' => '#',
+                        'children' => []
+                    ]
+                    ],   
+        ];
 */
 ?>
 
-<header class="tc-girder-navbar">
+<header class="tc-girder-navbar" data-tc-topnav>
 
     <div class="tc-girder-navbar-logo-container">
-        <a href="#"><img src="<?php echo $girder_nav_bar_data->logo_url ;?>" alt="Company Logo"></a>
+        <a href="<?php echo $girder_nav_bar_data->home_url ;?>"><img src="<?php echo $girder_nav_bar_data->logo_url ;?>" alt="Company Logo"></a>
     </div>
 
     <nav class="tc-girder-navbar-link-container">
@@ -21,8 +51,6 @@
                         echo "<a href='{$link->link_url}'>";
                         echo $link->name;
                         echo "</a>";
-                        //echo "<div class='tc-girder-navbar-link-filter'></div>";
-                        //echo "<div class='tc-girder-navbar-link-highlight'></div>";
                     echo "</li>";
                 }
             ?>
@@ -102,8 +130,6 @@
                         echo "<a href='{$link->link_url}'>";
                         echo $link->name;
                         echo "</a>";
-                        //echo "<div class='tc-girder-navbar-link-filter'></div>";
-                        //echo "<div class='tc-girder-navbar-link-highlight'></div>";
                     echo "</li>";
                 }
             ?>

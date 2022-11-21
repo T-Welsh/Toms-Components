@@ -4,6 +4,7 @@
     $simple_nav_bar_data = (object)[
         'id' => "nav-bar-1",
         'logo_url' => '../_LIBS/images/logoipsum-215.svg',
+        'home_url' => '#',
         'nav_links' => [
             (object)[
                 'name' => 'Home',
@@ -70,7 +71,7 @@
     */
 ?>
 
-<header class="tc-simple-navbar" id='<?php echo $simple_nav_bar_data->id ;?>'>
+<header class="tc-simple-navbar" id='<?php echo $simple_nav_bar_data->id ;?>' data-tc-topnav>
 
     <!-- SOCIAL BAR -->
     <div class='tc-simple-nav-bar-social-bar'>
@@ -140,7 +141,7 @@
 
     <!-- COMPANY LOGO -->
     <div class="tc-simple-navbar-logo-wrapper">
-        <a href="#"><img src="<?php echo $simple_nav_bar_data->logo_url ;?>" alt="Company Logo"></a>
+        <a href="<?php echo $simple_nav_bar_data->home_url ;?>"><img src="<?php echo $simple_nav_bar_data->logo_url ;?>" alt="Company Logo"></a>
     </div>
 
     <!-- TOGGLE ICON -->

@@ -39,3 +39,7 @@ main.css - contains css reset and utility classes
 vars.php - contains css variables
 toms-components.js - contains general javascript used by multiple components
 _INC - Folder containing the individual component folders
+
+## Ideas
+- floating contact chip
+- rolladex contect cards

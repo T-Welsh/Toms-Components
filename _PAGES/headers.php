@@ -14,6 +14,7 @@
     $simple_nav_bar_data = (object)[
         'id' => "nav-bar-1",
         'logo_url' => '../_LIBS/images/logoipsum-215.svg',
+        'home_url' => '#',
         'nav_links' => [
             (object)[
                 'name' => 'Home',
@@ -86,7 +87,7 @@
 
 
     <hr/>
-<!-- ========================  ======================== -->
+<!-- ======================== Girder Navbar ======================== -->
     <h2 class='component-label'>Girder Navbar</h2>
     <link rel="stylesheet" type="text/css" href="../_INC/Headers/girder-navbar/girder-navbar.css"/>
     <script type="application/javascript" src="../_INC/HEADERS/girder-navbar/girder-navbar.js" defer></script>
@@ -94,6 +95,7 @@
         $girder_nav_bar_data = (object)[
             'id' => "nav-bar-1",
             'logo_url' => '../_LIBS/images/logoipsum-215.svg',
+            'home_url' => '#',
             'nav_links_1' => [
                 (object)[
                     'name' => 'About',
@@ -124,4 +126,36 @@
         ];
         include "../_INC/Headers/girder-navbar/girder-navbar.php";
     ?>
+    <hr/>
+    <!-- ======================== Minimalist Navbar ======================== -->
+    <h2 class='component-label'>Minimalist Navbar</h2>
+    <link rel="stylesheet" type="text/css" href="../_INC/Headers/minimalist-navbar/minimalist-navbar.css"/>
+    <script type="application/javascript" src="../_INC/HEADERS/minimalist-navbar/minimalist-navbar.js" defer></script>
+    <?php
+        $minimalist_navbar_data = (object)[
+            'id' => "nav-bar-1",
+            'logo_url' => '../_LIBS/images/logoipsum-215.svg',
+            'home_url' => '#',
+            'nav_links_1' => [
+                (object)[
+                    'name' => 'About',
+                    'link_url' => '#',
+                    'children' => []
+                ],
+                (object)[
+                    'name' => 'Portfolio',
+                    'link_url' => '#',
+                    'children' => []
+                ]
+            ],
+            'contact_info' => [
+                (object)[
+                    'name' => '0755 555 5555',
+                    'link_url' => '07555555555',
+                ]
+            ]  
+        ];
+        include "../_INC/Headers/minimalist-navbar/minimalist-navbar.php";
+    ?>
+    <hr/>
 </body>
