@@ -185,3 +185,22 @@ $test_color = '255,0,255';
   --tc-3col-footer-text-color: var(--clr-text-light);
   
 }
+
+.tc-2col-footer {
+  /*Box Sizing*/
+  --tc-2col-footer-logo-width: 264px;
+
+  /*Margins and Padding*/
+  --tc-2col-footer-margin: var(--section-gap) 0 0 0;
+  --tc-2col-footer-padding: var(--section-gap) 0 0;
+  --tc-2col-footer-row-gap: 2rem;
+  --tc-2col-footer-logo-margin: 0 var(--page-margin);
+  --tc-2col-footer-content-container-margin: 0 var(--page-margin);
+  
+  /*Background*/
+  --tc-2col-footer-background-color: var(--clr-primary);
+
+  /*Text*/
+  --tc-2col-footer-text-color: var(--clr-text-light);
+  
+}

@@ -102,6 +102,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .tc-girder-navbar-tray-btn > div {
     width: 1.5rem;
