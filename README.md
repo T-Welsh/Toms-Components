@@ -22,14 +22,15 @@
 - button: styles element to look like a button (use with hover pseudo-class). Default vars:--text-alt, --highlight.
 
 ## TODO:
-* [ ] Add Overlay to Simple-hero background image
-* [ ] Add Overlay to simple-banner background image
+* [ ] Add data schema to each component
 * [ ] Rebuild Card grid to using flex
-* [ ] Build Minimalist header
 * [ ] Add front end tools to preview theme changes
 * [ ] Add feature to select components and export a package containing required files and generated vars.php file
 * [ ] Add Theme pages to demo complimentary components
 * [ ] Add complete readmes for individual components
+* [ ] Create tool to compile CSS/JS in to one file for production
+* [ ] Package the componet php file into one folder for production
+
 
 ## Processwire
 Generic processwire templates will contain the required fields so different styled components can be used interchangeably

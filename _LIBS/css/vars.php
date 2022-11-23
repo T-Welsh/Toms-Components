@@ -31,6 +31,7 @@ $test_color = '255,0,255';
     --clr-text-dark: 28, 28, 29;
 
     /*============ COLORS - Southwold ============*/
+    /*
     --temp: #211959;
     --color-picker: rgb(21, 125, 182);
     --clr-primary: 55, 74, 124;
@@ -40,7 +41,7 @@ $test_color = '255,0,255';
     --clr-neutral: 255, 252, 243;
     --clr-text-light: 255, 255, 255;
     --clr-text-dark: 101, 101, 101;
-
+    */
     /*============ FONT VARIABLES & SETTINGS ============*/
     font-size: 16px;
     --ff-primary: sans-serif;
@@ -113,6 +114,14 @@ $test_color = '255,0,255';
     /*Background*/
     --tc-simple-nav-bar-background-color: var(--clr-primary);
     --tc-simple-nav-bar-dropdown-background-color: 255, 255, 255;
+}
+
+.tc-minimalist-navbar {
+     --tc-minimalist-navbar-background-color: var(--clr-primary);
+    --tc-minimalist-navbar-border-color: 255, 255, 255;
+    --tc-minimalist-navbar-text-color: var(--clr-text-light);
+    --tc-minimalist-navbar-text-hover-color: var(--clr-accent);
+    --tc-minimalist-navbar-hover-border: 1px solid var(--clr-accent); 
 }
 
 /*------ Content Blocks ------*/
