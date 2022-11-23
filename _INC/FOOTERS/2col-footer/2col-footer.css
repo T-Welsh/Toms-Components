@@ -40,6 +40,9 @@
 .tc-2col-footer-content-card a:hover{
     color: rgb(var(--clr-accent));
 }
+.tc-2col-footer-logo-wrapper img {
+    width: 100%;
+}
 .tc-2col-footer-social-bar {
     display: flex;
     justify-content: center;

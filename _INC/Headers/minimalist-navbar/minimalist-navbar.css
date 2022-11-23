@@ -1,12 +1,15 @@
 .tc-minimalist-navbar {
-    --tc-minimalist-navbar-background-color: var(--clr-primary);
+    /* --tc-minimalist-navbar-background-color: var(--clr-primary);
     --tc-minimalist-navbar-border-color: 255, 255, 255;
     --tc-minimalist-navbar-text-color: var(--clr-text-light);
     --tc-minimalist-navbar-text-hover-color: var(--clr-accent);
-    --tc-minimalist-navbar-hover-border: 1px solid var(--clr-accent);
+    --tc-minimalist-navbar-hover-border: 1px solid var(--clr-accent); */
 
-    position: relative;
+    position: fixed;
     z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
     min-height: 12vh;
     background-color: rgb(var(--tc-minimalist-navbar-background-color));
     display: flex;
@@ -31,7 +34,11 @@
     justify-content: center;
     align-items: center;
 }
+.tc-minimalist-navbar-logo-wrapper a{
+    width: 60%;
+}
 .tc-minimalist-navbar-logo-wrapper img {
+    width: 100%;
     max-height: 10vh;
 }
 
@@ -123,5 +130,7 @@
     .tc-minimalist-navbar-tray-btn-wrapper {
         display: none;
     }
+    .tc-minimalist-navbar-logo-wrapper a{
+        width: 100%;
+    }
 }
-

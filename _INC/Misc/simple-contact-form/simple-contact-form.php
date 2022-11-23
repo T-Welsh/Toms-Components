@@ -1,15 +1,5 @@
 <?php
     /* Clone a copy of the simple form on Jot Forms and paste the code in the marked section below*/
-
-    //schema
-    /*
-        $simple_contact_form_data = (object)[
-            'id' => 'simple-contact-form-1',
-            'terms_url' => '#'
-            'background_image_url' => '../_LIBS/images/image2.jpg',
-            'background_overlay' => 'transparent'
-        ];
-    */
 ?>
 
 <section class='tc-simple-contact-form' id="<?php echo $simple_contact_form_data->id ;?>"
@@ -28,6 +18,7 @@ style='
   background-color: <?php echo $simple_contact_form_data->background_overlay ;?>;
 '>
 </div>
+<h2><?php echo $simple_contact_form_data->heading ;?></h2>
 <!-- ============ Jot Form Embedded Coded Goes Here ============ -->
 
 <script src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.37132" type="text/javascript"></script>
@@ -217,71 +208,92 @@ for (var i = 0; i < all_spc.length; i++)
 
 
 
+
+
+
 <!-- ============ Overrides ============ -->
 
-<!-- Add js  here to overide the broken jot form widgets -->
-<script defer>
-    (function($) {
-        $(document).ready(function() {
-                // Inject the corrent t&c's info
-                $('#label_input_12_0').html(`I agree to the <a href='<?php echo $simple_contact_form_data->terms_url ;?>'>terms & conditions</a>`);
-                //fix btn styling
-                $('#input_2').removeClass();
-                $('#input_2').addClass('button');
-            });
-    })(jQuery);
-</script>
+    <!-- Add js  here to overide the broken jot form widgets -->
+    <script defer>
+        (function($) {
+            $(document).ready(function() {
+                    // Inject the corrent t&c's info
+                    $('#label_input_12_0').html(`I agree to the <a href='<?php echo $simple_contact_form_data->terms_url ;?>'>terms & conditions</a>`);
+                    //fix btn styling
+                    $('#input_2').removeClass();
+                    $('#input_2').addClass('button');
+                });
+        })(jQuery);
+    </script>
 
-<!-- Add CSS here to overide the jot form design ideologues -->
-<style>
-    .form-all {
-        box-shadow: none;
-    }
-    .form-required {
-        display: none;
-    }
-    li.form-line {
-        max-width: 95vw;
-    }
-    li.form-line:not(.form-line-column) .form-input-wide[data-layout=half] {
-        width: 100%;
-    }
-    .form-textarea {
-        width: 100%;
-    }
-    .form-input-wide {
-        max-width: 90vw;
-    }
-    .jotform-form {
-      position: relative;
-      z-index: 904;
-    }
-</style>
-<!-- Toms Component Styling -->
-<style>
-    .tc-simple-contact-form {
-        --simple-contact-form-background-color: var(--clr-secondary);
-        --simple-contact-form-text-color: var(--clr-text-dark);
-
+    <!-- Add CSS here to overide the jot form design ideologues -->
+    <style>
+        .form-all {
+            box-shadow: none;
+            margin: 2rem auto
+        }
+        .form-required {
+            display: none;
+        }
+        .form-line {
+            padding: 5px 10px;
+        }
+        li.form-line {
+            max-width: 95vw;
+        }
+        li.form-line:not(.form-line-column) .form-input-wide[data-layout=half] {
+            width: 100%;
+        }
+        .form-textarea {
+            width: 100%;
+        }
+        .form-input-wide {
+            max-width: 90vw;
+        }
+        .jotform-form {
         position: relative;
-        z-index: 900;
-        background-color: rgb(var(--simple-contact-form-background-color));
-    }
-    .tc-simple-contact-form * {
-        color: rgb(var(--simple-contact-form-text-color)) !important;
-    }
-    .tc-simple-contact-form input{
-        min-width: 300px;
-        width: 100%
-    }
-    .tc-simple-contact-form-overlay {
-      position: absolute;
-      z-index: 902;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-</style>
+        z-index: 904;
+        }
+    </style>
+    <!-- Toms Component Styling -->
+    <style>
+        .tc-simple-contact-form {
+            --simple-contact-form-background-color: var(--clr-secondary);
+            --simple-contact-form-text-color: var(--clr-text-dark);
+
+            position: relative;
+            z-index: 900;
+            margin: var(--section-gap) 0;
+            padding: 2rem 0 0 0;
+            background-color: rgb(var(--simple-contact-form-background-color));
+        }
+        .tc-simple-contact-form *:not(.button) {
+            color: rgb(var(--simple-contact-form-text-color)) !important;
+        }
+        .tc-simple-contact-form input{
+            min-width: 300px;
+            width: 100%
+        }
+        .tc-simple-contact-form h2 {
+            position: relative;
+            z-index: 904;
+            width: 100%;
+            text-align: center;
+        }
+        .tc-simple-contact-form a {
+            text-decoration: underline;
+        }
+        .tc-simple-contact-form-overlay {
+        position: absolute;
+        z-index: 902;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        }
+        .tc-simple-contact-form .button {
+            min-width: 110px;
+        }
+    </style>
 
 </section>

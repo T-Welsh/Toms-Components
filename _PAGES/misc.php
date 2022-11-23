@@ -28,6 +28,7 @@
     <?php
         $simple_contact_form_data = (object)[
             'id' => 'simple-contact-form-1',
+            'heading' => 'Get in Touch',
             'terms_url' => '#',
             'background_image_url' => '../_LIBS/images/image2.jpg',
             'background_overlay' => 'transparent'

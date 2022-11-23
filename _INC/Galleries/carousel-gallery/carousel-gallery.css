@@ -10,6 +10,7 @@
 }
 .tc-carousel-gallery .slick-dots {
     margin-top: 1rem;
+    padding: 0;
     display: flex;
     justify-content: center;
     gap: 1.4rem;
@@ -26,7 +27,7 @@
     border: 2px solid rgb(var(--tc-carousel-gallery-background-color));
     border-radius: 6rem;
     width: 2rem;
-    height: 1rem;
+    height: 0.6rem;
     background-color: rgb(var(--tc-carousel-gallery-dots-color));
 }
 
