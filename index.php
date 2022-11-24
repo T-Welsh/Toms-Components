@@ -30,7 +30,7 @@
             <li><a href="./_PAGES/headers.php">Headers</a></li>
             <li><a href="./_PAGES/heros.php">Heros</a></li>
             <li><a href="./_PAGES/content_blocks.php">Content Blocks</a></li>
-            <li><a href="./_PAGES/galleries.php">Galleries</a></li>
+            <li><a href="./_PAGES/carousels_and_galleries.php">Carousels and Galleries</a></li>
             <li><a href="./_PAGES/banners.php">Banners</a></li>
             <li><a href="./_PAGES/misc.php">Misc</a></li>
             <li><a href="./_PAGES/footers.php">Footers</a></li>

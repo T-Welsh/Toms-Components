@@ -46,3 +46,4 @@ _INC - Folder containing the individual component folders
 ## Ideas
 - floating contact chip
 - rolladex contect cards
+- combined hero/nav (like DLN electrical hero)

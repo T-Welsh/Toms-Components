@@ -15,4 +15,5 @@
 - simple-navbar
 - simple-contact-form
 - simple-google-map
+- testimonial-carousel
 
