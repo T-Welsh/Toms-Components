@@ -10,7 +10,7 @@ Takes in data in the following format...
 ```
     $content_block_data = (object) [
         'id' => 'unique-id-here',
-        'background_color' => '#ffffff',
+        'background_color' => '6,11,25',
         'heading' => 'HTML element(s) containing the content to be echoed inside of the heading container',
         'column1' => 'HTML element(s) containing the content to be echoed inside of the content container',
         'column2' => 'HTML element(s) containing the content to be echoed inside of the content container',
@@ -18,7 +18,7 @@ Takes in data in the following format...
     ]
 ```
 - id --unique id for targenting specifin instance of component
-- background_color --Sets the background color of componant instance. Will default to theme styling if left empty.
+- background_color --Sets the background color of component instance using RGB values. Will default to theme styling if left empty.
 - heading --Sets the content for the section heading 
 - column1 --Sets the content for column1
 - column2 --Sets the content for column2

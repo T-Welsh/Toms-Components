@@ -7,13 +7,12 @@
     <!-- ======================== Simple Hero ======================== -->
     <h2 class='component-label'>Simple Hero</h2>
     <link rel="stylesheet" type="text/css" href="../_INC/Heros/simple-hero/simple-hero.css"/>
-    <script type="application/javascript" src="../_INC/Heros/simple-hero/simple-hero.js" defer></script>
     <?php
         $simple_hero_data = (object)[
             'id' => 'id-1',
             'image_url' => "../_LIBS/images/image4.jpg",
             'overlay_color' => 'transparent',
-            'hero_content' => '<h1>Hero Text</h1>'
+            'hero_content' => '<h1>HERO HEADING/LOGO GOES HERE </h1>'
         ];
         include "../_INC/Heros/simple-hero/simple-hero.php";
     ?>  

@@ -69,6 +69,7 @@
                     <li><a href=''>Item 3</a></li>
                     <li><a href=''>Item 4</a></li>
                 </ul>
+                <p>Some longer text to test responsive syles while adding padding to this footer element</p>
             ",
             'facebook_url' => '#',
             'Instagram_url' => '#',

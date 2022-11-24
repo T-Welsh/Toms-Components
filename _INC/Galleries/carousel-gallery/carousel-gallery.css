@@ -23,12 +23,23 @@
 
 }
 .tc-carousel-gallery .slick-dots button{
-    outline: 2px solid rgb(var(--tc-carousel-gallery-dots-color));
+    outline: 2px solid rgb(var(--tc-carousel-gallery-dots-color),0.5);
     border: 2px solid rgb(var(--tc-carousel-gallery-background-color));
     border-radius: 6rem;
     width: 2rem;
     height: 0.6rem;
-    background-color: rgb(var(--tc-carousel-gallery-dots-color));
+    background-color: rgb(var(--tc-carousel-gallery-dots-color),0);
+}
+.tc-carousel-gallery .slick-dots button{
+    outline: 2px solid rgb(var(--tc-carousel-gallery-dots-color),0.5);
+    border: 2px solid rgb(var(--tc-carousel-gallery-background-color));
+    border-radius: 6rem;
+    width: 2rem;
+    height: 0.6rem;
+    background-color: rgb(var(--tc-carousel-gallery-dots-color),0);
+}
+.tc-carousel-gallery .slick-dots .slick-active button {
+    background-color: rgb(var(--tc-carousel-gallery-dots-color),1);
 }
 
 .tc-carousel-gallery-card {

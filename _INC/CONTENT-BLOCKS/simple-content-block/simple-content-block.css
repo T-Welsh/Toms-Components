@@ -27,8 +27,17 @@
     grid-column:  span 6;
 }
 .tc-content-block[data-columns="2"] article {
-    grid-column: span 3;
+    grid-column: span 6;
 }
 .tc-content-block[data-columns="3"] article {
-    grid-column: span 2;
+    grid-column: span 6;
+}
+
+@media only screen and (min-width: 768px){
+    .tc-content-block[data-columns="2"] article {
+        grid-column: span 3;
+    }
+    .tc-content-block[data-columns="3"] article {
+        grid-column: span 2;
+    }
 }

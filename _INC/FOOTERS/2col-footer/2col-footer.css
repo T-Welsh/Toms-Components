@@ -10,6 +10,7 @@
 .tc-2col-footer-content-container {
     justify-self: center;
     margin: var(--tc-2col-footer-content-container-margin);
+    padding: 0 var(--page-margin);
     width: 100%;
     max-width: 1400px;
     display: grid;

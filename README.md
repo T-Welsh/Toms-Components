@@ -22,6 +22,8 @@
 - button: styles element to look like a button (use with hover pseudo-class). Default vars:--text-alt, --highlight.
 
 ## TODO:
+* [ ] Create Testimonial carousel
+* [ ] Create Logo Ticker/Carousel
 * [ ] Add data schema to each component
 * [ ] Rebuild Card grid to using flex
 * [ ] Add front end tools to preview theme changes
@@ -29,7 +31,7 @@
 * [ ] Add Theme pages to demo complimentary components
 * [ ] Add complete readmes for individual components
 * [ ] Create tool to compile CSS/JS in to one file for production
-* [ ] Package the componet php file into one folder for production
+* [ ] Package the component php file into one folder for production
 
 
 ## Processwire
