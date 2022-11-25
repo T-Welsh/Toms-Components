@@ -141,6 +141,19 @@ header("Content-type: text/css");
     --tc-simple-banner-text-size: var(--fs-primary-heading);
 }
 /*#endregion*/
+
+/*#region------------ testimonial-carousel ------------*/
+.tc-testimonial-carousel {
+    --tc-testimonial-carousel-text-color: var(--clr-text-light);
+}
+/*#endregion*/
+
+/*#region------------ logo-ticker-carousel ------------*/
+.tc-logo-ticker {
+    --tc-logo-ticker-heading-color: var(--clr-text-dark);
+    --tc-logo-ticker-heading-font-size: var(--fs-secondary-heading);
+}
+/*#endregion*/
 /*======================== Component CSS ========================*/
 
 /*#region------------ minimalist-navbar ------------*/
@@ -593,5 +606,114 @@ header("Content-type: text/css");
     color: rgb(var(--tc-simple-banner-text-color));
     font-size: var(--tc-simple-banner-text-size);
     text-align: center;
+}
+/*#endregion*/
+
+/*#region------------ testimonial-carousel ------------*/
+.tc-testimonial-carousel {
+    position: relative;
+    z-index: 800;
+    padding: 2rem 0;
+    min-height: 30vh;
+}
+.tc-testimonial-carousel * {
+    color: rgb(var(--tc-testimonial-carousel-text-color));
+}
+.tc-testimonial-carousel h2 {
+    position: relative;
+    z-index: 810;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: var(--fs-secondary-heading);
+}
+.tc-testimonial-carousel-overlay {
+    position: absolute;
+    z-index: 802;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.tc-testimonial-carousel-content-container {
+    position: relative;
+    z-index: 810;
+    font-style: italic;
+}
+.tc-testimonial-carousel-card {
+    padding: 0 3rem;
+    min-height: 20vh;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tc-testimonial-carousel-card > p,
+.tc-testimonial-carousel-card > p:first-of-type::before,
+.tc-testimonial-carousel-card > p:last-of-type::after {
+    line-height: 1.6rem;
+}
+.tc-testimonial-carousel-card > p:first-of-type::before {
+    content: '"';
+    margin-right: 0.5rem;
+    font-size: 2.5rem;
+    vertical-align: text-bottom;
+}
+.tc-testimonial-carousel-card > p:last-of-type::after {
+    content: '"';
+    margin-left: 0.5rem;
+    font-size: 2.5rem;
+    vertical-align: text-top;
+}
+.tc-testimonial-carousel-card-caption {
+ margin-top: 1.2rem;
+ font-weight: var(--fw-bold);
+}
+.tc-testimonial-carousel-card-caption::before {
+    content: "-";
+    margin-right: 1rem;
+}
+.tc-testimonial-carousel .slick-arrow {
+    position: absolute;
+    z-index: 812;
+    top: 50%;
+    width: auto;
+    height: 3rem;
+    transform: translate(0px, -50%);
+}
+.tc-testimonial-carousel .left-arrow {
+    left: 1rem;
+}
+.tc-testimonial-carousel .right-arrow {
+    right: 1rem;
+}
+@media only screen and (min-width: 550px) {
+    .tc-testimonial-carousel-card {
+        padding: 0 7rem;
+    }
+    .tc-testimonial-carousel .left-arrow {
+        left: 2rem;
+    }
+    .tc-testimonial-carousel .right-arrow {
+        right: 2rem;
+    }
+}
+/*#endregion*/
+
+/*#region------------ logo-ticker ------------*/
+.tc-logo-ticker h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(var(--tc-logo-ticker-heading-color));
+    font-size: var(--tc-logo-ticker-heading-font-size);
+}
+.tc-logo-ticker-card {
+    padding: 0 3rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.tc-logo-ticker img{
+    width: auto;
+    height: 40px;
 }
 /*#endregion*/

@@ -1,0 +1,16 @@
+.tc-logo-ticker h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(var(--tc-logo-ticker-heading-color));
+    font-size: var(--tc-logo-ticker-heading-font-size);
+}
+.tc-logo-ticker-card {
+    padding: 0 3rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.tc-logo-ticker img{
+    width: auto;
+    height: 40px;
+}

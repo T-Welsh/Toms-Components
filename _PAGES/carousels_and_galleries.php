@@ -60,7 +60,7 @@
                         'caption' => 'Mr Paid Shill'
                     ],
                     (object)[
-                        'testimonial' => '<p>This company listens to everything i want and delivers exactly that.</p>',
+                        'testimonial' => "<p>This company listens to everything i want and delivers exactly that. Really Long testimonials are a waste of everyones time but people insist on using them so the CSS needs to take that into account. Seriously though who reads this sort of nonsense. It's not like business owners will publish a poor review to their site.</p>",
                         'caption' => 'Mr Paid Shill'
                     ],
                     (object)[
@@ -75,4 +75,41 @@
             ];
     include "../_INC/Carousels-and-Galleries/testimonial-carousel/testimonial-carousel.php";
     ?>
+
+    <hr>
+    <!-- ======================== Logo Ticker ======================== -->
+    <h2 class='component-label'>Logo Ticker</h2>
+    <link rel="stylesheet" type="text/css" href="../_INC/Carousels-and-Galleries/logo-ticker/logo-ticker.css"/>
+    <script type="application/javascript" src="../_INC/Carousels-and-Galleries/logo-ticker/logo-ticker.js" defer></script>
+    <?php
+            $logo_ticker_data = (object)[
+                'id' => 'Logo-ticker-1',
+                'heading' => 'Logo Ticker Heading',
+                'cards' => [
+                    (object)[
+                        'url' => '../_LIBS/images/logoipsum-226.svg',
+                        'alt' => 'image alt text'
+                    ],
+                    (object)[
+                        'url' => '../_LIBS/images/spi-des-ign_logo_final.png',
+                        'alt' => 'image alt text'
+                    ],
+                    (object)[
+                        'url' => '../_LIBS/images/logoipsum-289.svg',
+                        'alt' => 'image alt text'
+                    ],
+                    (object)[
+                        'url' => '../_LIBS/images/logoipsum-230.svg',
+                        'alt' => 'image alt text'
+                    ],
+                    (object)[
+                        'url' => '../_LIBS/images/logoipsum-241.svg',
+                        'alt' => 'image alt text'
+                    ]
+                ]
+            ];
+    include "../_INC/Carousels-and-Galleries/logo-ticker/logo-ticker.php";
+    ?>
+
+    <hr>
 </body>

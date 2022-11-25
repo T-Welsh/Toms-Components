@@ -175,6 +175,14 @@ $test_color = '255,0,255';
   --tc-carousel-gallery-dots-color: var(--clr-text-light);
 }
 
+.tc-testimonial-carousel {
+    --tc-testimonial-carousel-text-color: var(--clr-text-light);
+}
+
+.tc-logo-ticker {
+    --tc-logo-ticker-heading-color: var(--clr-text-dark);
+    --tc-logo-ticker-heading-font-size: var(--fs-secondary-heading);
+}
 /*------ Footers ------*/
 .tc-3col-footer {
   /*Box Sizing*/
