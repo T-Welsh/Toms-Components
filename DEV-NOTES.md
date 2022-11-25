@@ -24,4 +24,3 @@ The following components need rewrites as slick carousel no longer seems to be s
 - carousel-gallery v1.0.0
 - testimonial-carousel v1.0.0
 - logo-ticker v1.0.0
-

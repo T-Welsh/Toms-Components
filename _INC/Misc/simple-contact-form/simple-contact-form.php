@@ -1,6 +1,18 @@
 <?php
 //Simple Contact Form v1.0.0
-    /* Clone a copy of the simple form on Jot Forms and paste the code in the marked section below*/
+//Schema
+/*
+  $simple_contact_form_data = (object)[
+      'id' => 'simple-contact-form-1',
+      'heading' => 'Get in Touch',
+      'terms_url' => '#',
+      'background_image_url' => '../_LIBS/images/image2.jpg',
+      'background_overlay' => 'transparent'
+  ];
+*/
+
+
+/* Clone a copy of the simple form on Jot Forms and paste the code in the marked section below*/
 ?>
 
 <section class='tc-simple-contact-form' id="<?php echo $simple_contact_form_data->id ;?>"
