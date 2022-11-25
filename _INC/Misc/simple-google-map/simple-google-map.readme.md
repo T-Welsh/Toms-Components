@@ -1,4 +1,4 @@
-# Girder Navbar Component
+# Simple Google Map Component
 A simple map component built using google maps. The map view will default to be centered on the marker at the provided lattitude, longitude, and zoom level.
 
 ONLY HAVE ONE INSTANCE PER PAGE

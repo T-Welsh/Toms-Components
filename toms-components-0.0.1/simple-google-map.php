@@ -1,7 +1,6 @@
 <?php
 //Simple Google Map v1.0.0
 ?>
-
 <script>
     var simple_google_map_data = <?php echo json_encode($simple_google_map_data, JSON_HEX_TAG); ?>; // Don't forget the extra semicolon!
 </script>

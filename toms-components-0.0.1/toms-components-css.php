@@ -154,6 +154,22 @@ header("Content-type: text/css");
     --tc-logo-ticker-heading-font-size: var(--fs-secondary-heading);
 }
 /*#endregion*/
+
+/*#region------------ card-grid ------------*/
+.tc-card-grid {
+    /*Box Sizing*/
+    --tc-card-grid-card-max-width: 100%;
+
+    /*Margins and Padding*/
+    --tc-card-grid-margin: var(--section-gap) 0;
+    --tc-card-grid-padding: 0 var(--page-margin);
+    --tc-card-grid-card-padding: 1rem;
+
+    /*Border and Background*/
+    --tc-card-grid-card-border: 1px solid rgb(var(--clr-text-dark));
+    --tc-card-grid-card-border-radius: 6px;
+}
+/*#endregion*/
 /*======================== Component CSS ========================*/
 
 /*#region------------ minimalist-navbar ------------*/
@@ -715,5 +731,56 @@ header("Content-type: text/css");
 .tc-logo-ticker img{
     width: auto;
     height: 40px;
+}
+/*#endregion*/
+
+/*#region------------ card-grid ------------*/
+.tc-card-grid {
+    margin: var(--tc-card-grid-margin);
+    padding: var(--tc-card-grid-padding);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-items: center;
+}
+.tc-card-grid-main-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 3vw;
+    row-gap: 2rem;
+    justify-content: center;
+}
+.tc-card-grid-card {
+    border: var(--tc-card-grid-card-border);
+    border-radius: var(--tc-card-grid-card-border-radius);
+    max-width: var(--tc-card-grid-card-max-width);
+    padding: var(--tc-card-grid-card-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .tc-card-grid-main-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .tc-card-grid-main-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/*#endregion*/
+
+/*#region------------ simple-google-map ------------*/
+/* Set the size of the div element that contains the map */
+.simple-google-map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
 }
 /*#endregion*/

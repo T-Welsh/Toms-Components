@@ -3,12 +3,16 @@
 ## Dependancies
 - jQuery
 - slick js - required for carousel functionality
+- jot form account - required for simple contact form component
+- google api key - required for simple-google-map component
 
 ## Notes
 - PHP include components are located in the /_INC folder
 - The main.css and jquery files are located in the _LIBS folder these are common resources shared by many components
 - Component specific css/js will be stored in the individual component folders
 - css Variables are defined in the vars.css.php
+- The simple-google-map component may require an api key to be added into the php file
+- The simple jot form requires jot form generated code to be pasted into the php file
 
 ## Usage Instructions
 - Copy the component php file to the includes folder in your project 

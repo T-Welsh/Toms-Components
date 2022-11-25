@@ -9,14 +9,15 @@
 - simple-banner v1.0.0
 - testimonial-carousel v1.0.0
 - logo-ticker v1.0.0
+- simple-google-map v1.0.0
+- simple-contact-form v1.0.0
+- card-grid v1.0.0
 
 ## Development Components
-- card-grid
 - 3col-footer
 - girder-navbar
 - simple-navbar
-- simple-contact-form
-- simple-google-map
+
 
 ## Rewrites
 The following components need rewrites as slick carousel no longer seems to be supported:
