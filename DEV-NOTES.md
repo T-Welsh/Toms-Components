@@ -10,7 +10,7 @@
 - testimonial-carousel v1.0.0
 - logo-ticker v1.0.0
 - simple-google-map v1.0.0
-- simple-contact-form v1.0.0
+- simple-contact-form v1.1.0
 - card-grid v1.0.0
 
 ## Development Components
@@ -24,3 +24,8 @@ The following components need rewrites as slick carousel no longer seems to be s
 - carousel-gallery v1.0.0
 - testimonial-carousel v1.0.0
 - logo-ticker v1.0.0
+
+
+# 0.0.3 Changelog (unpublished)
+- Changed simple-contact-form to use a modified internal stylesheet istead of jotform CDN.
+- Added version info at top of toms-components.js and toms-components-css.php

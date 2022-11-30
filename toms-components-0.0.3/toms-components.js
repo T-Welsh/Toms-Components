@@ -1,3 +1,5 @@
+//Toms Components v0.0.3
+
 /*============ Utillity JS ============*/
 //Add jQuery Support for dialog elements
 jQuery.fn.extend({showModal: function() {

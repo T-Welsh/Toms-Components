@@ -1,1 +1,0 @@
-- minimalist-navbar - v1.0.0
