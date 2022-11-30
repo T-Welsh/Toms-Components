@@ -13,9 +13,10 @@
         $content_block_data = (object) [
             'id' => 'unique-id-here',
             'background_color' => '6,11,25',
-            'heading' => 'HTML element(s) containing the content to be echoed inside of the heading container',
+            'justify_article' => 'top',
+            'heading' => 'HTML element(s) containing the content to be echoed inside of the heading container <br> <br> ',
             'column1' => 'HTML element(s) containing the content to be echoed inside of the content container',
-            'column2' => 'HTML element(s) containing the content to be echoed inside of the content container',
+            'column2' => 'HTML element(s) containing the content to be echoed inside of the content container HTML element(s) containing the content to be echoed inside of the content container HTML element(s) containing the content to be echoed inside of the content container HTML element(s) containing the content to be echoed inside of the content container',
             'column3' => 'HTML element(s) containing the content to be echoed inside of the content container'
         ];
         include "../_INC/CONTENT-BLOCKS/simple-content-block/simple-content-block.php";

@@ -1,6 +1,6 @@
 <?php
 header("Content-type: text/css");
-// Toms Components v0.0.3
+// Toms Components v0.0.4
 
 ?>
 /*======================== Style Reset ========================*/
@@ -327,6 +327,7 @@ header("Content-type: text/css");
 /*#endregion*/
 
 /*#region------------ simple-content-block ------------*/
+/*simple-content-block v1.2.0*/
 .tc-content-block {
     margin: var(--tc-content-block-margin);
     padding:  var(--tc-content-block-padding);
@@ -336,19 +337,16 @@ header("Content-type: text/css");
 }
 .tc-content-block-heading {
     grid-column: span 6;
-    margin-bottom: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
 }
-.tc-content-block article {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+.tc-content-block[data-justify-article="center"] article {
+    margin: auto;
 }
+.tc-content-block[data-justify-article="top"] article {
+    margin: 0 auto;
+}
+
 .tc-content-block article > *:not(:last-child) {
     margin-bottom: 1rem;
 }

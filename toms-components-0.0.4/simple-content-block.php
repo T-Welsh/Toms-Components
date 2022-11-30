@@ -1,5 +1,5 @@
 <?php
-//Simple Content Block v1.0.0
+//Simple Content Block v1.2.0
 
 /*
 Format data as schema below and place directly above the include call on parent page.
@@ -7,6 +7,7 @@ Format data as schema below and place directly above the include call on parent 
     $content_block_data = (object) [
         'id' => 'unique-id-here',
         'background_color' => '6,11,25',
+        justify_article => 'top'
         'heading' => 'HTML element(s) containing the content to be echoed inside of the heading container',
         'column1' => 'HTML element(s) containing the content to be echoed inside of the content container',
         'column2' => 'HTML element(s) containing the content to be echoed inside of the content container',
@@ -28,6 +29,13 @@ if ($content_block_data->column1 && $content_block_data->column2 &&  $content_bl
 <?php
 if ($content_block_data->background_color) {
     echo "style='background-color: rgba({$content_block_data->background_color})'"; 
+}
+// Justify Items in each article
+if ($content_block_data->justify_article == "center") {
+    echo 'data-justify-article="center"';
+}
+else {
+    echo 'data-justify-article="top"';
 }
 ?>
 >

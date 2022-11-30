@@ -2,7 +2,7 @@
 
 ## Production Components
 - minimalist-navbar v1.0.0
-- simple-content-block v1.0.0
+- simple-content-block v1.2.0
 - simple-hero v1.0.0
 - carousel-gallery v1.0.0
 - 2col-footer v1.0.0
@@ -12,11 +12,12 @@
 - simple-google-map v1.0.0
 - simple-contact-form v1.1.0
 - card-grid v1.0.0
+- 3col-footer v1.0.0
 
 ## Development Components
-- 3col-footer
 - girder-navbar
 - simple-navbar
+
 
 
 ## Rewrites
@@ -29,3 +30,5 @@ The following components need rewrites as slick carousel no longer seems to be s
 # 0.0.3 Changelog (unpublished)
 - Changed simple-contact-form to use a modified internal stylesheet istead of jotform CDN.
 - Added version info at top of toms-components.js and toms-components-css.php
+# 0.0.4 Changelog (unpublished)
+- Updated simple content block to v1.2.0 -- can now justify column item to top or center
