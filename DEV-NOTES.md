@@ -13,10 +13,12 @@
 - simple-contact-form v1.1.0
 - card-grid v1.0.0
 - 3col-footer v1.0.0
+- floating-content-block v1.0.0
 
 ## Development Components
 - girder-navbar
 - simple-navbar
+
 
 
 
@@ -32,3 +34,5 @@ The following components need rewrites as slick carousel no longer seems to be s
 - Added version info at top of toms-components.js and toms-components-css.php
 # 0.0.4 Changelog (unpublished)
 - Updated simple content block to v1.2.0 -- can now justify column item to top or center
+# 0.0.5 Changelog (unpublished)
+- Added Floating Content Block

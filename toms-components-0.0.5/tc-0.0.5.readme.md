@@ -12,6 +12,8 @@
 - simple-google-map v1.0.0
 - simple-contact-form v1.1.0
 - card-grid v1.0.0
+- 3col-footer v1.0.0
+- floating-content-block v1.0.0
 
 ## Dependancies
 - jQuery
