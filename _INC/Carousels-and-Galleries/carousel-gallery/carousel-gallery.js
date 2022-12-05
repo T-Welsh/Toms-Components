@@ -1,3 +1,4 @@
+/**Carousel Gallery 1.0.1 */
 $('.tc-carousel-gallery-content-container').slick({
     slidesToShow: 4,
     slidesToScroll: 1,

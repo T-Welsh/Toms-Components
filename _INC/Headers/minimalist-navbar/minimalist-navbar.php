@@ -1,6 +1,6 @@
 <?php
 /*
-Minimalist Navbar v1.0.0
+Minimalist Navbar v1.0.1
 
     // DATA SCHEMA:
         $minimalist_navbar_data = (object)[

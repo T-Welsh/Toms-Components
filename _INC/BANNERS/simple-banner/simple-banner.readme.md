@@ -1,4 +1,4 @@
-# Simple Banner Component
+# Simple Banner v1.0.1 
 
 ## Overview
 Adds a simple call-to-action banner with a heading and button
@@ -32,3 +32,7 @@ $simple_banner_data = (object)[
 ### Processwire
 
 ## Todo
+
+## Changelog
+### 1.0.1
+- Removed Flex-gap Property

@@ -1,4 +1,4 @@
-//Toms Components v0.0.5
+//Toms Components v0.0.6
 
 /*============ Utillity JS ============*/
 //Add jQuery Support for dialog elements
@@ -17,7 +17,7 @@ jQuery.fn.extend({close: function() {
     });
 }});
 /*============ Components JS ============*/
-//#region ------------ minimalist-navbar ------------|
+//#region ------------ minimalist-navbar 1.0.1 ------------|
 $('.tc-minimalist-navbar-tray-btn').on('click', function () {
     console.log('btn-clicked');
     if ($('.tc-minimalist-navbar-navigation-container').attr('aria-expanded') == 'false') {

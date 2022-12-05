@@ -63,7 +63,10 @@
     display: none;
     justify-content: center;
     align-items: center;
-    gap: 2rem
+    /* gap: 2rem */
+}
+.tc-girder-navbar-social-container > * + * {
+    margin-left: 2rem;
 }
 .tc-girder-nav-bar-social-bar-icon-wrapper {
     position: relative;

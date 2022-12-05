@@ -14,3 +14,7 @@ Takes in data in the following format...
 ### Processwire
 
 ## Todo
+
+## Changelog
+### v1.0.1
+Removed flex-gap property

@@ -1,6 +1,6 @@
 <?php
 header("Content-type: text/css");
-// Toms Components v0.0.5
+// Toms Components v0.0.6
 
 ?>
 /*======================== Style Reset ========================*/
@@ -201,13 +201,11 @@ header("Content-type: text/css");
 /*#endregion*/
 /*======================== Component CSS ========================*/
 
-/*#region------------ minimalist-navbar ------------*/
+/*#region------------ minimalist-navbar v1.0.1------------*/
+/*Minimalist Navbar v1.0.1*/
 .tc-minimalist-navbar {
-    position: absolute;
+    position: relative;
     z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
     min-height: 12vh;
     background-color: rgb(var(--tc-minimalist-navbar-background-color));
     display: flex;
@@ -254,9 +252,12 @@ header("Content-type: text/css");
 }
 .tc-minimalist-navbar-navigation-container > ul {
     display: flex;
-    gap: 2rem;
+    /* gap: 2rem; */
     justify-content: center;
     align-items: center;
+}
+.tc-minimalist-navbar-navigation-container > ul > * + * {
+    margin-left: 2rem;
 }
 
 /*------------ Contact ------------*/
@@ -271,9 +272,12 @@ header("Content-type: text/css");
 }
 .tc-minimalist-navbar-contact-container > ul {
     display: flex;
-    gap: 2rem;
+    /* gap: 2rem; */
     justify-content: center;
     align-items: center;
+}
+.tc-minimalist-navbar-contact-container > ul > * + * {
+    margin-left: 2rem;
 }
 
 /*------------ Tray Button ------------*/
@@ -418,7 +422,8 @@ header("Content-type: text/css");
 }
 /*#endregion*/
 
-/*#region------------ carousel-gallery ------------*/
+/*#region------------ carousel-gallery 1.0.1 ------------*/
+/*Carousel Gallery v0.0.1*/
 .tc-carousel-gallery {
     padding: 2rem 0;
     background-color: rgb(var(--tc-carousel-gallery-background-color));
@@ -434,7 +439,10 @@ header("Content-type: text/css");
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 1.4rem;
+    /* gap: 1.4rem; */
+}
+.tc-carousel-gallery .slick-dots > * + * {
+    margin-left: 1.4rem;
 }
 .tc-carousel-gallery .slick-dots * {
     border: none;
@@ -488,6 +496,7 @@ header("Content-type: text/css");
 .tc-carousel-gallery-card-modal::backdrop {
     background-color: rgba(0, 0, 0, 0.6);
 }
+
 /*#endregion*/
 
 /*#region------------ 2col-footer ------------*/
@@ -616,7 +625,8 @@ header("Content-type: text/css");
 
 /*#endregion*/
 
-/*#region------------ simple-banner ------------*/
+/*#region------------ simple-banner 1.0.1 ------------*/
+/*Simple Banner v1.0.1*/
 .tc-simple-banner {
     position: relative;
     z-index: 920;
@@ -639,11 +649,14 @@ header("Content-type: text/css");
     position: relative;
     z-index: 924;
     display: flex;
-    column-gap: 2rem;
+    /* column-gap: 2rem;*/
     row-gap: 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.tc-simple-banner-inner > * + * {
+    margin-left: 2rem;
 }
 .tc-simple-banner-inner>span {
     color: rgb(var(--tc-simple-banner-text-color));
@@ -1144,5 +1157,20 @@ header("Content-type: text/css");
 .tc-floating-content-block[data-float-style="5"][data-reversed] .tc-floating-content-block-image2-wrapper {
     width: calc(var( --tc-floating-content-block-image2-wrapper-width) * (2/3));
     transform: translate(75%, -10%);
+}
+/*#endregion*/
+
+/*#region------------ logo-banner v1.0.0 ------------*/
+/*logo Banner v1.0.0*/
+.tc-logo-banner {
+    padding: 1rem;
+    background-color: rgb(var(--clr-primary));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tc-logo-banner img:hover {
+    border-radius: 6px;
+    box-shadow: 0 0 5px 5px rgb(0 0 0 / 5%);
 }
 /*#endregion*/

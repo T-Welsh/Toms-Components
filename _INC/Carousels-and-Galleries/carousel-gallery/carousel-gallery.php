@@ -1,5 +1,5 @@
 <?php
-//Carousel Gallery v1.0.0
+//Carousel Gallery v1.0.1
 /*
     // DATA SCHEMA:
         $carousel_gallery_data = (object)[

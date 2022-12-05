@@ -1,0 +1,12 @@
+/*logo Banner v1.0.0*/
+.tc-logo-banner {
+    padding: 1rem;
+    background-color: rgb(var(--clr-primary));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tc-logo-banner img:hover {
+    border-radius: 6px;
+    box-shadow: 0 0 5px 5px rgb(0 0 0 / 5%);
+}

@@ -1,3 +1,4 @@
+/*Simple Banner v1.0.1*/
 .tc-simple-banner {
     position: relative;
     z-index: 920;
@@ -20,11 +21,14 @@
     position: relative;
     z-index: 924;
     display: flex;
-    column-gap: 2rem;
+    /* column-gap: 2rem;*/
     row-gap: 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.tc-simple-banner-inner > * + * {
+    margin-left: 2rem;
 }
 .tc-simple-banner-inner>span {
     color: rgb(var(--tc-simple-banner-text-color));

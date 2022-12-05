@@ -1,6 +1,6 @@
 
 <?php
-//Simple Banner v1.0.0
+//Simple Banner v1.0.1
 
 /*
 A simple banner with centered text and a button.

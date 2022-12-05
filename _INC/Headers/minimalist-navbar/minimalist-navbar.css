@@ -1,3 +1,4 @@
+/*Minimalist Navbar v1.0.1*/
 .tc-minimalist-navbar {
     position: relative;
     z-index: 1000;
@@ -47,9 +48,12 @@
 }
 .tc-minimalist-navbar-navigation-container > ul {
     display: flex;
-    gap: 2rem;
+    /* gap: 2rem; */
     justify-content: center;
     align-items: center;
+}
+.tc-minimalist-navbar-navigation-container > ul > * + * {
+    margin-left: 2rem;
 }
 
 /*------------ Contact ------------*/
@@ -64,9 +68,12 @@
 }
 .tc-minimalist-navbar-contact-container > ul {
     display: flex;
-    gap: 2rem;
+    /* gap: 2rem; */
     justify-content: center;
     align-items: center;
+}
+.tc-minimalist-navbar-contact-container > ul > * + * {
+    margin-left: 2rem;
 }
 
 /*------------ Tray Button ------------*/
