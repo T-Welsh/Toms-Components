@@ -40,7 +40,8 @@ The following components need rewrites as slick carousel no longer seems to be s
 - Updated simple content block to v1.2.0 -- can now justify column item to top or center
 # 0.0.5 Changelog (unpublished)
 - Added Floating Content Block
-# 0.0.6 Changelog (unpublished)
+# 0.0.6 Changelog
 - Updated Minimalist Navbar to v1.0.1
 - Updated Carousel Gallery to v1.0.1
 - Added Logo Banner v1.0.0
+# 0.0.7 Changelog (unpublished)
