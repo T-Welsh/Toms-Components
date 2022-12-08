@@ -27,6 +27,7 @@
 ## Development Components
 - girder-navbar
 - simple-navbar
+- zen-navbar v1.0.0 needs responsive styling
 
 
 ## Rewrites

@@ -1,0 +1,81 @@
+/* Zen Navbar v1.0.0 */
+.tc-zen-navbar {
+    position: relative;
+    z-index: 1000;
+    height: 130px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.tc-zen-navbar * {
+    color: rgb(var(--clr-text-light),0.8);
+}
+.tc-zen-navbar-logo-container {
+    grid-column-start: 2;
+    padding: 1rem 0;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tc-zen-navbar-logo-wrapper {
+    height: 100%;
+}
+.tc-zen-navbar-logo-wrapper img {
+    height: 100%;
+    width: auto;
+}
+
+.tc-zen-navbar-panel {
+    position: fixed;
+    inset: 0 0 0 55%;
+    padding: min(30vh, 260px) min(5rem, 5vw) 0;
+    transition: inset 0.8s;
+}
+.tc-zen-navbar-panel  ul > li{
+    margin-bottom: 2rem;
+}
+.tc-zen-navbar-panel  ul > li,
+.tc-zen-navbar-panel  ul > li a{
+    font-size: 1.7rem;
+    white-space: nowrap;
+}
+.tc-zen-navbar-panel  ul > li a:hover {
+    color: rgb(var(--clr-text-light),1);
+}
+.tc-zen-navbar-social-icons-container {
+    margin-bottom: 2rem;
+    display: flex;
+}
+.tc-zen-navbar-social-icons-container svg {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.tc-zen-navbar-social-icons-container {
+    gap: 2rem;
+}
+@supports not(gap:2rem){
+    .tc-zen-navbar-social-icons-container > *:not(:first-child) {
+        margin-left: 2rem;
+    }
+}
+
+.tc-zen-navbar-panel-toggle {
+    cursor: pointer;
+    width: 3rem;
+}
+.tc-zen-navbar-panel-toggle-open-wrapper {
+    grid-column-start: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tc-zen-navbar-panel-toggle-close {
+    position: absolute;
+    top: 65px;
+    left: min(5rem, 5vw);
+    transform: translateY(-50%);
+}
+
+.tc-zen-navbar[aria-expanded=false] .tc-zen-navbar-panel {
+    inset: 0 0 0 101%;
+}

@@ -1,4 +1,4 @@
-# Minimalist Navbar
+# Minimalist Navbar v1.0.1
 
 ## Overview
 - z-index group: 1000

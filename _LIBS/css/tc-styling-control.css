@@ -13,6 +13,15 @@ html {
 }
 
 /*zen hero demo styling*/
+.tc-zen-navbar {
+    position: fixed !important;
+}
+.tc-zen-navbar img {
+    position: relative;
+    top: 1rem;
+    /* scale: 1.4; */
+    transform-origin: top left; 
+}
 .tc-zen-hero-img-wrapper{
     transform: scaleX(-1);
 }
