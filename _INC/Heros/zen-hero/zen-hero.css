@@ -1,0 +1,35 @@
+.tc-zen-hero {
+    position: relative;
+    z-index: 900;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.tc-zen-hero-img-wrapper {
+    position: absolute;
+    z-index: 902;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tc-zen-hero-image-overlay {
+    position: absolute;
+    z-index: 904;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.tc-zen-hero-content-container {
+    position: relative;
+    z-index: 906;
+    grid-column-start: 2;
+    grid-column-end: span 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

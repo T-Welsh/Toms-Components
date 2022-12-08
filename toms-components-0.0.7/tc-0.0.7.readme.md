@@ -1,5 +1,9 @@
 # Toms Components
 
+## External Files
+- toms-components-css.php
+- toms-components.js
+
 ## Components
 ### Navbars
 - minimalist-navbar v1.0.1
@@ -9,6 +13,7 @@
 - floating-content-block v1.0.0
 ### Heros
 - simple-hero v1.0.0
+- zen-hero v1.0.0
 ### Carousels & Galleries
 - carousel-gallery v1.0.1
 - testimonial-carousel v1.0.0

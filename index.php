@@ -25,7 +25,9 @@
     <header>
         <h1>Toms Components</h1>
     </header>
+    <br>
     <nav>
+        <h2>Components</h2>
         <ul>
             <li><a href="./_PAGES/headers.php">Headers</a></li>
             <li><a href="./_PAGES/heros.php">Heros</a></li>
@@ -34,6 +36,11 @@
             <li><a href="./_PAGES/banners.php">Banners</a></li>
             <li><a href="./_PAGES/misc.php">Misc</a></li>
             <li><a href="./_PAGES/footers.php">Footers</a></li>
+        </ul>
+        <br>
+        <h2>Themes</h2>
+        <ul>
+            <li><a href="./_PAGES/_page-themes/zen.php">Zen</a></li>
         </ul>
     </nav>
 </body>

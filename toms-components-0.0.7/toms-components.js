@@ -1,4 +1,4 @@
-//Toms Components v0.0.6
+//Toms Components v0.0.7
 
 /*============ Utillity JS ============*/
 //Add jQuery Support for dialog elements

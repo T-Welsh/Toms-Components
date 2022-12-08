@@ -1,6 +1,6 @@
 <?php
 header("Content-type: text/css");
-// Toms Components v0.0.6
+// Toms Components v0.0.7
 
 ?>
 /*======================== Style Reset ========================*/
@@ -1173,4 +1173,8 @@ header("Content-type: text/css");
     border-radius: 6px;
     box-shadow: 0 0 5px 5px rgb(0 0 0 / 5%);
 }
+/*#endregion*/
+
+/*#region------------ zen-hero v1.0.0 ------------*/
+<?php include("./zen-hero/zen-hero.css") ;?>
 /*#endregion*/

@@ -9,6 +9,7 @@
 - floating-content-block v1.0.0
 ### Heros
 - simple-hero v1.0.0
+- zen-hero v1.0.0
 ### Carousels & Galleries
 - carousel-gallery v1.0.1
 - testimonial-carousel v1.0.0
@@ -26,6 +27,7 @@
 ## Development Components
 - girder-navbar
 - simple-navbar
+
 
 ## Rewrites
 The following components need rewrites as slick carousel no longer seems to be supported:
@@ -45,3 +47,4 @@ The following components need rewrites as slick carousel no longer seems to be s
 - Updated Carousel Gallery to v1.0.1
 - Added Logo Banner v1.0.0
 # 0.0.7 Changelog (unpublished)
+- added zen-hero v1.0.0

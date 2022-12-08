@@ -11,3 +11,32 @@ html {
 .component-label {
     margin: 2rem;
 }
+
+/*zen hero demo styling*/
+.tc-zen-hero-img-wrapper{
+    transform: scaleX(-1);
+}
+.tc-zen-hero-content-container > *:not(:last-child) {
+    margin-bottom: 2rem;
+}
+.tc-zen-hero-content-container h1{
+    font-size: 4.5rem;
+    color: white;
+}
+.tc-zen-hero-content-container p {
+    color: white;
+    font-size: 1.8rem;
+}
+.tc-zen-hero .button {
+    font-size: 1.8rem;
+    color: white;
+    background-color: transparent;
+    border-radius: 0;
+    border: 3px solid white;
+    width: max-content;
+
+}
+.tc-zen-hero .button:hover {
+    font-size: 1.8rem;
+    border-radius: 0;
+}
