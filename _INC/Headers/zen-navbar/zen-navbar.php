@@ -1,6 +1,6 @@
 <?php
 /*
-Zen Navbar v1.0.0
+Zen Navbar v1.0.1
 
     // DATA SCHEMA:
         $zen_navbar_data = (object)[

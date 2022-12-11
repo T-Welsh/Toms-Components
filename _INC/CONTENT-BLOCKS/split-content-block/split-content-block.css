@@ -1,0 +1,14 @@
+/*Spli Content Block v1.0.0*/
+.tc-split-content-block {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.tc-split-content-block p {
+    max-width: 800px;
+}
+.tc-split-content-block > div {
+    grid-column: span 6;
+}
+.tc-split-content-block-text-container{
+    padding: 4rem 5vw;
+}

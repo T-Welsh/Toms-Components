@@ -36,7 +36,8 @@ html {
     color: white;
     font-size: 1.8rem;
 }
-.tc-zen-hero .button {
+.tc-zen-hero .button,
+#brck-about-us .button {
     font-size: 1.8rem;
     color: white;
     background-color: transparent;
@@ -45,7 +46,41 @@ html {
     width: max-content;
 
 }
-.tc-zen-hero .button:hover {
+.tc-zen-hero .button:hover,
+#brck-about-us .button:hover {
     font-size: 1.8rem;
     border-radius: 0;
+
+    background-color: white;
+    color: black;
+}
+
+/*BRCK demo styling*/
+#brck-nav-2 {
+    --tc-girder-navbar-background-color: 255, 100, 60;
+    --tc-girder-navbar-border-color: 255, 255, 255;
+    --tc-girder-navbar-text-color: var(--clr-text-light);
+}
+
+#brck-hero h1{
+    font-size: clamp(4.5rem, 20vw, 12rem);
+}
+
+#BRCK-logo-carousel {
+    margin: 4rem 0;
+}
+#BRCK-logo-carousel h2 {
+    font-size: 2rem;
+}
+
+#brck-about-us h2,
+#brck-about-us  p{
+    color: white !important;
+}
+#brck-about-us h2 {
+    font-size: 2rem;
+}
+#brck-about-us  p{
+    letter-spacing: 0.02em;
+    font-size: 1.1rem
 }

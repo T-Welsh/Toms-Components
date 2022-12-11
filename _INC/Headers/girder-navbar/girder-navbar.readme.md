@@ -1,5 +1,4 @@
-# Girder Navbar Component
-A simple header that includes a social banner, logo, and nav-links.
+# Girder Navbar Component v1.0.0
 
 The Relevent social media icons and contact info will display automatically if a link is provided.
 Supported social media:
@@ -9,10 +8,6 @@ Supported social media:
 - Linkedin
 - Pinterest
 - YouTube
-Social bar also includes:
-- Telephone
-- Mobile
-- Email
 
 ## Overview
 - z-index group: 1000

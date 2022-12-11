@@ -1,4 +1,5 @@
 <?php
+//Girder Navbar v1.0.0
 /*
     // DATA SCHEMA:
     $girder_nav_bar_data = (object)[
@@ -36,7 +37,7 @@
 */
 ?>
 
-<header class="tc-girder-navbar" data-tc-topnav>
+<header class="tc-girder-navbar" id="<?php echo $girder_nav_bar_data->id; ?>" data-tc-topnav>
 
     <div class="tc-girder-navbar-logo-container">
         <a href="<?php echo $girder_nav_bar_data->home_url ;?>"><img src="<?php echo $girder_nav_bar_data->logo_url ;?>" alt="Company Logo"></a>

@@ -1,4 +1,4 @@
-# Zen Navbar v1.0.0
+# Zen Navbar v1.0.1
 
 ## Overview
 - z-index group: 1000
@@ -62,3 +62,6 @@ Takes in data in the following format...
 ## Todo
 
 ## Changelog
+### v1.0.1
+- Fixed mavbar left and right properties to screen to 0
+- Change navbar height to a css variable

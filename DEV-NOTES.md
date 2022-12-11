@@ -25,9 +25,11 @@
 - 3col-footer v1.0.0
 
 ## Development Components
-- girder-navbar
+- girder-navbar v1.0.0
 - simple-navbar
-- zen-navbar v1.0.0 needs responsive styling
+- zen-navbar v1.0.1 needs responsive styling
+- zen-hero v1.0.1
+- split-content-block v1.0.0
 
 
 ## Rewrites

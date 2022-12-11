@@ -1,4 +1,4 @@
-// Zen Navbar v1.0.0
+// Zen Navbar v1.0.1
 $('.tc-zen-navbar-panel-toggle-close').on('click', function (event) {
     $('.tc-zen-navbar').attr('aria-expanded',false);
     $('.tc-zen-navbar-panel-toggle-open').show();

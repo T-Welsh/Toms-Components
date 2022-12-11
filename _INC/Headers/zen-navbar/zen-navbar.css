@@ -1,8 +1,11 @@
-/* Zen Navbar v1.0.0 */
+/* Zen Navbar v1.0.1 */
 .tc-zen-navbar {
+    --tc-zen-navbar-height: 130px;
     position: relative;
     z-index: 1000;
-    height: 130px;
+    left: 0;
+    right: 0;
+    height: var(--tc-zen-navbar-height);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
@@ -65,6 +68,7 @@
 }
 .tc-zen-navbar-panel-toggle-open-wrapper {
     grid-column-start: 12;
+    max-height: var(--tc-zen-navbar-height);
     display: flex;
     justify-content: center;
     align-items: center;

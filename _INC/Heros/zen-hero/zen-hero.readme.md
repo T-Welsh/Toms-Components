@@ -1,4 +1,4 @@
-# Zen Hero Component v1.0.0
+# Zen Hero Component v1.0.1
 
 ## Overview
 A  Hero with a background image and heading set to the left
@@ -32,3 +32,7 @@ $zen_hero_data = (object)[
 ### Processwire
 
 ## Todo
+
+## Changelog
+### 1.0.1
+- Fixed component id not showing

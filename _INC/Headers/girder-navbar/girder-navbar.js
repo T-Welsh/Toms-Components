@@ -1,3 +1,4 @@
+//Girder Navbar v1.0.0
 /*============ Mouse Effects ============*/
 $('.tc-girder-navbar-link-container').on('mouseenter', function (event) {
 

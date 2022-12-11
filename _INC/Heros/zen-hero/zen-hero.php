@@ -1,5 +1,5 @@
 <?php
-//Simple Hero v1.0.0
+//Simple Hero v1.0.1
 
 /*
 Format data as schema below and place directly above the include call on parent page.
@@ -16,7 +16,7 @@ Format data as schema below and place directly above the include call on parent 
 
 ?>
 
-<section class="tc-zen-hero" id="<?php $zen_hero_data->id ;?>" 
+<section class="tc-zen-hero" id="<?php echo $zen_hero_data->id ;?>" 
 <?php
     echo ("style='height:{$zen_hero_data->hero_height}vh;'"); 
 ?>
