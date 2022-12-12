@@ -41,6 +41,7 @@
         <h2>Themes</h2>
         <ul>
             <li><a href="./_PAGES/_page-themes/zen.php">Zen</a></li>
+            <li><a href="./_PAGES/_page-themes/brck.php">BRCK</a></li>
         </ul>
     </nav>
 </body>

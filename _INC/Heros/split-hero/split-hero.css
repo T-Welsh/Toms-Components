@@ -1,0 +1,21 @@
+/*Split Hero v1.0.0*/
+.tc-split-hero {
+    position: relative;
+    z-index: 900;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tc-split-hero-container {
+    position: relative;
+    z-index: 902;
+}
+.tc-split-hero-container-overlay {
+    position: absolute;
+    z-index: 904;
+    width: 100%;
+    height: 100%;
+}
+.tc-split-hero-container-inner {
+    position: relative;
+    z-index: 906;
+}

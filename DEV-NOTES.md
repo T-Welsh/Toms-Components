@@ -30,6 +30,7 @@
 - zen-navbar v1.0.1 needs responsive styling
 - zen-hero v1.0.1
 - split-content-block v1.0.0
+- split-hero v1.0.0
 
 
 ## Rewrites

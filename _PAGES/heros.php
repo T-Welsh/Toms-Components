@@ -38,5 +38,27 @@
     ?>  
 
     <hr/>
+<!-- ======================== Split Hero ======================== -->
+<h2 class='component-label'>Split Hero</h2>
+    <link rel="stylesheet" type="text/css" href="../_INC/Heros/split-hero/split-hero.css"/>
+    <?php
+        $split_hero_data = (object)[
+            'id' => 'split-hero-1',
+            'hero_height' => '70',
+            'background_image_url' => '../_LIBS/images/image6.jpg',
+            'container1' => (object) [
+                'background_image_url' => '',
+                'background_overlay' => 'rgb(0,0,0,1)',
+                'content' => '<h1>SPLIT HERO</h1>'
+            ],
+            'container2' => (object) [
+                'background_image_url' => '',
+                'background_overlay' => 'rgb(0,0,0,1)',
+                'content' => '<h2>SPLIT HERO Section 2</h2>'
+            ]
+        ];
+        include "../_INC/Heros/split-hero/split-hero.php";
+    ?>  
 
+    <hr/>
 </body>
