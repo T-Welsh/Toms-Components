@@ -31,6 +31,7 @@
 - zen-hero v1.0.1
 - split-content-block v1.0.0
 - split-hero v1.0.0
+- block-gallery v1.0.0
 
 
 ## Rewrites

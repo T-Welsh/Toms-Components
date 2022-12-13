@@ -157,3 +157,31 @@ include "../../_INC/Carousels-and-Galleries/logo-ticker/logo-ticker.php";
     include "../../_INC/CONTENT-BLOCKS/split-content-block/split-content-block.php";
     
 ?>  
+
+<!-- Block Gallery -->
+<link rel="stylesheet" type="text/css" href="../../_INC/Carousels-and-Galleries/block-gallery/block-gallery.css"/>
+    <?php
+        $block_gallery_data = (object)[
+            'id' => 'block-gallery-1',
+            'heading' => 'Logo Ticker Heading',
+            'images' => [
+                (object)[
+                    'url' => '../../_LIBS/images/image1.jpg',
+                    'alt' => 'image alt text'
+                ],
+                (object)[
+                    'url' => '../../_LIBS/images/image2.jpg',
+                    'alt' => 'image alt text'
+                ],
+                (object)[
+                    'url' => '../../_LIBS/images/image3.jpg',
+                    'alt' => 'image alt text'
+                ],
+                (object)[
+                    'url' => '../../_LIBS/images/image4.jpg',
+                    'alt' => 'image alt text'
+                ]
+            ]
+        ];
+    include "../../_INC/Carousels-and-Galleries/block-gallery/block-gallery.php";
+    ?>

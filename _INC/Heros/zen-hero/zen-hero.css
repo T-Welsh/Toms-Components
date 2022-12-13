@@ -1,6 +1,9 @@
 .tc-zen-hero {
     position: relative;
     z-index: 900;
+    height: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
