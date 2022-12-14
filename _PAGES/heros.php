@@ -43,7 +43,7 @@
     <link rel="stylesheet" type="text/css" href="../_INC/Heros/split-hero/split-hero.css"/>
     <?php
         $split_hero_data = (object)[
-            'id' => 'split-hero-1',
+            'id' => 'goldelec-hero',
             'hero_height' => '70',
             'background_image_url' => '../_LIBS/images/image6.jpg',
             'container1' => (object) [

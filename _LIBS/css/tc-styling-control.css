@@ -84,3 +84,101 @@ html {
     letter-spacing: 0.02em;
     font-size: 1.1rem
 }
+
+/*GoldElec demo styling*/
+.elec-btn {
+    border: 2px solid rgb(22,3,112);
+    border-radius: 0;
+    padding: 0.6rem;
+    min-width: 150px;
+    background-color: rgb(22,3,112);
+    font-size: 1.6rem;
+    color: white;
+}
+.elec-btn:hover {
+    border: 2px solid rgb(22,3,112);
+    border-radius: 0;
+    padding: 0.6rem;
+    min-width: 150px;
+    background-color: white;
+    font-size: 1.6rem;
+    color: rgb(22,3,112);
+}
+
+.elec-btn-alt,
+#elec-banner-1 .button {
+    border: 2px solid rgb(22,3,112);
+    border-radius: 0;
+    padding: 0.6rem;
+    min-width: 150px;
+    background-color: rgb(255,255,255);
+    font-size: 1.6rem;
+    color: rgb(22,3,112);;
+}
+.elec-btn:hover,
+#elec-banner-1 .button:hover {
+    border: 2px solid rgb(22,3,112);
+    border-radius: 0;
+    padding: 0.6rem;
+    min-width: 150px;
+    background-color: rgb(22,3,112);
+    font-size: 1.6rem;
+    color: white
+}
+
+#goldelec-navbar {
+    background-color: rgb(22,3,112);
+}
+#goldelec-navbar .tc-simple-nav-bar-social-bar {
+    background-color: rgb(248, 212, 26);
+    align-items: center;
+}
+
+#goldelec-navbar > .tc-simple-navbar-logo-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+#goldelec-navbar > .tc-simple-navbar-logo-wrapper {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#gold-elec-hero .tc-split-hero-container-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gold-elec-hero *:not(.elec-btn) {
+    color: rgb(22,3,112);
+}
+
+.gold-elec-hero-card {
+    padding: 1rem;
+    max-width: 500px;
+    background: rgb(255,255,255,0.7);
+    backdrop-filter: blur(3px);
+}
+.gold-elec-hero-card h1 {
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+}
+.gold-elec-hero-card p {
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+}
+
+#elec-about-content-block-1 p,
+#elec-about-content-block-1 h2{
+    max-width: 700px;
+    color: rgb(22,3,112);
+}
+#elec-about-content-block-1 h2 {
+    font-size: 3rem;
+}
+
+#elec-banner-1 .tc-simple-banner-inner>span {
+    font-size: 3rem;
+}
