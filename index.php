@@ -42,6 +42,7 @@
         <ul>
             <li><a href="./_PAGES/_page-themes/zen.php">Zen</a></li>
             <li><a href="./_PAGES/_page-themes/brck.php">BRCK</a></li>
+            <li><a href="./_PAGES/_page-themes/goldelec.php">Gold Elec</a></li>
         </ul>
     </nav>
 </body>
