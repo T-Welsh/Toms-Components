@@ -181,4 +181,5 @@ html {
 
 #elec-banner-1 .tc-simple-banner-inner>span {
     font-size: 3rem;
+    flex-basis: 100%;
 }

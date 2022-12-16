@@ -144,7 +144,7 @@
     ?>  
 
     <!-- services -->
-    <link rel="stylesheet" type="text/css" href="../_INC/CONTENT-BLOCKS/card-grid/card-grid.css"/>
+    <link rel="stylesheet" type="text/css" href="../../_INC/CONTENT-BLOCKS/card-grid/card-grid.css"/>
     <?php
     
         $card_grid_data = (object)[
@@ -152,7 +152,7 @@
             'heading' => "<h2>Our Services</h2>",
             'cards' => [
                 '<article>
-                    <h3>Domestic Wiring</h3>
+                    <h3>Domestic Electrical Work</h3>
                     <p>Tag Line</p>
                     <ul>
                         <li>Item 1</li>
@@ -165,7 +165,7 @@
                     </ul>
                 </article>',
                 '<article>
-                    <h3>Home Security Installation</h3>
+                    <h3>Commercial Electrical Work</h3>
                     <p>Tag Line</p>
                     <ul>
                         <li>Item 1</li>
@@ -178,20 +178,7 @@
                     </ul>
                 </article>',
                 '<article>
-                    <h3>CARD HEADING 3</h3>
-                    <p>Tag Line</p>
-                    <ul>
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                        <li>Item 3</li>
-                        <li>Item 4</li>
-                        <li>Item 5</li>
-                        <li>Item 6</li>
-                        <li>Item 7</li>
-                    </ul>
-                </article>',
-                '<article>
-                    <h3>CARD HEADING 4</h3>
+                    <h3>Industrial Installations</h3>
                     <p>Tag Line</p>
                     <ul>
                         <li>Item 1</li>
@@ -205,7 +192,7 @@
                 </article>'
             ]
         ];
-        include "../_INC/CONTENT-BLOCKS/card-grid/card-grid.php";
+        include "../../_INC/CONTENT-BLOCKS/card-grid/card-grid.php";
         
     ?>  
 

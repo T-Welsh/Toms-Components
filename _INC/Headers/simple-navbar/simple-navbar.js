@@ -18,7 +18,7 @@ $('.tc-simple-navbar-navbar-toggler').on('click', function () {
 });
 
 $(window).on('load resize', () => {
-    let windowWidth = $(window).width();
+    let windowWidth = $(window).innerwidth();
     if(windowWidth <= 992 && $('#tc-simple-navbar-collapsible-content').attr('aria-expanded') == 'false') {
         $('#tc-simple-navbar-collapsible-content').hide()
     }
