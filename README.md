@@ -26,6 +26,7 @@
 - button: styles element to look like a button (use with hover pseudo-class). Default vars:--text-alt, --highlight.
 
 ## TODO:
+* [ ] Add option to set row length on card grid component
 * [ ] Create Cards sub-component page.
 * [ ] Rebuild Carousels in a different framework
 * [ ] Rebuild Simple navbar
@@ -45,6 +46,7 @@ toms-components.js - contains general javascript used by multiple components
 _INC - Folder containing the individual component folders
 
 ## Ideas
+- flex card grid
 - floating contact chip
 - rolladex contect cards
 - combined hero/nav (like DLN electrical hero)

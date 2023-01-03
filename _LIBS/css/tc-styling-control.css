@@ -106,24 +106,33 @@ html {
 }
 
 .elec-btn-alt,
-#elec-banner-1 .button {
+#elec-banner-1 .button,
+#elec-banner-2 .button,
+#goldelec-form-1 button {
     border: 2px solid rgb(22,3,112);
     border-radius: 0;
     padding: 0.6rem;
     min-width: 150px;
-    background-color: rgb(255,255,255);
+    /*background-color: rgb(255,255,255);*/
+    background-color: rgb(248, 212, 26);
     font-size: 1.6rem;
-    color: rgb(22,3,112);;
+    color: rgb(22,3,112);
+    text-align: center;
 }
 .elec-btn:hover,
-#elec-banner-1 .button:hover {
+.elec-btn-alt:hover,
+#elec-banner-1 .button:hover,
+#elec-banner-2 .button:hover,
+#goldelec-form-1 button:hover {
     border: 2px solid rgb(22,3,112);
     border-radius: 0;
     padding: 0.6rem;
     min-width: 150px;
-    background-color: rgb(22,3,112);
+    /*background-color: rgb(22,3,112);*/
+    background-color: white;
     font-size: 1.6rem;
-    color: white
+    color: rgb(22,3,112);
+    box-shadow: 3px 3px 6px 4px #0000001b;
 }
 
 #goldelec-navbar {
@@ -132,6 +141,11 @@ html {
 #goldelec-navbar .tc-simple-nav-bar-social-bar {
     background-color: rgb(248, 212, 26);
     align-items: center;
+}
+#goldelec-navbar .tc-simple-nav-bar-social-bar a:hover,
+#goldelec-navbar .tc-simple-nav-bar-social-bar a:hover svg {
+    color: rgb(22,3,112) !important;
+    fill: rgb(22,3,112);
 }
 
 #goldelec-navbar > .tc-simple-navbar-logo-wrapper img {
@@ -179,7 +193,118 @@ html {
     font-size: 3rem;
 }
 
-#elec-banner-1 .tc-simple-banner-inner>span {
+#elec-banner-1 .tc-simple-banner-inner>span,
+#elec-banner-2 .tc-simple-banner-inner>span {
     font-size: 3rem;
     flex-basis: 100%;
+}
+
+#goldelec-services-grid {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#goldelec-services-grid * {
+    color: rgb(22,3,112);
+}
+
+#goldelec-services-grid h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+#goldelec-services-grid h3 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#goldelec-services-grid p {
+    max-width: 700px;
+}
+
+#goldelec-services-grid a {
+    align-self: center;
+}
+
+#goldelec-services-grid .tc-card-grid-card > article {
+    display: flex;
+    flex-direction: column;
+}
+
+#goldelec-services-grid > .tc-card-grid-main-container {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#goldelec-services-grid .tc-card-grid-card {
+    border: 2px solid rgb(22,3,112);
+    border-radius: 0;
+}
+
+#goldelec-services-grid .tc-card-grid-card li {
+    margin-bottom: 0.3rem;
+}
+
+#goldelec-pricing-grid * {
+    color: rgb(22,3,112);
+}
+
+#goldelec-pricing-grid h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+#goldelec-pricing-grid h3 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+
+#goldelec-pricing-grid {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#goldelec-pricing-grid hr {
+    margin: 1rem;
+    border: 1px solid rgb(22,3,112);
+    background-color: rgb(22,3,112);
+}
+
+#goldelec-pricing-grid > .tc-card-grid-main-container {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#goldelec-pricing-grid .tc-card-grid-card {
+    border: 2px solid rgb(22,3,112);
+    border-radius: 0;
+}
+
+.gePricing {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#goldelec-form-1 * {
+    color: rgb(22,3,112) !important;
+}
+
+#goldelec-form-1 h2 {
+    font-size: 3rem;
+}
+/*
+#goldelec-form-1 button {
+    border: 2px solid rgb(22,3,112);
+    border-radius: 0;
+    padding: 0.6rem;
+    min-width: 150px;
+    background-color: rgb(248, 212, 26);
+    font-size: 1.6rem;
+    color: rgb(22,3,112);
+    text-align: center;
+}*/
+
+#goldelec-pagefooter {
+    background-color: rgb(22,3,112);
 }
