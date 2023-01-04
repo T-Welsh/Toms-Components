@@ -9,6 +9,7 @@
 <!-- ======================== Simple Navbar ======================== -->
 <h2 class='component-label'>Simple Navbar</h2>
 <link rel="stylesheet" type="text/css" href="../_INC/Headers/simple-navbar/simple-navbar.css"/>
+<!-- Disabled simple navbar scripts as throwing errors -->
 <script type="application/javascript" src="../_INC/HEADERS/simple-navbar/simple-navbar.js" defer></script>
 <?php
     $simple_nav_bar_data = (object)[
@@ -130,7 +131,7 @@
     <!-- ======================== Minimalist Navbar ======================== -->
     <h2 class='component-label'>Minimalist Navbar</h2>
     <link rel="stylesheet" type="text/css" href="../_INC/Headers/minimalist-navbar/minimalist-navbar.css"/>
-    <script type="application/javascript" src="../_INC/HEADERS/minimalist-navbar/minimalist-navbar.js" defer></script>
+    <script type="application/javascript" src="../_INC/Headers/minimalist-navbar/minimalist-navbar.js" defer></script>
     <?php
         $minimalist_navbar_data = (object)[
             'id' => "nav-bar-1",
@@ -162,7 +163,7 @@
     <!-- ======================== Zen Navbar ======================== -->
     <h2 class='component-label'>Zen Navbar</h2>
     <link rel="stylesheet" type="text/css" href="../_INC/Headers/zen-navbar/zen-navbar.css"/>
-    <script type="application/javascript" src="../_INC/HEADERS/zen-navbar/zen-navbar.js" defer></script>
+    <script type="application/javascript" src="../_INC/Headers/zen-navbar/zen-navbar.js" defer></script>
     <?php
         $zen_navbar_data = (object)[
             'id' => "zen-nav-bar-1",
@@ -212,6 +213,54 @@
             
         ];
         include "../_INC/Headers/zen-navbar/zen-navbar.php";
+    ?>
+
+    <hr/>
+    <!-- ======================== Purlin Navbar ======================== -->
+    <h2 class='component-label'>Purlin Navbar</h2>
+    <link rel="stylesheet" type="text/css" href="../_INC/Headers/purlin-navbar/purlin-navbar.css"/>
+    <script type="application/javascript" src="../_INC/Headers/purlin-navbar/purlin-navbar.js" defer></script>
+    <?php
+        $purlin_navbar_data = (object)[
+            'id' => "purlin-nav-bar-1",
+            'logo_url' => '../_LIBS/images/logoipsum-289.svg',
+            'home_url' => '#',
+            'nav_links_1' => [
+                (object)[
+                    'name' => 'About',
+                    'link_url' => '#',
+                    'children' => []
+                ],
+                (object)[
+                    'name' => 'Services',
+                    'link_url' => '#',
+                    'children' => []
+                ],
+                (object)[
+                    'name' => 'News',
+                    'link_url' => '#',
+                    'children' => []
+                ],
+                (object)[
+                    'name' => 'Portfolio',
+                    'link_url' => '#',
+                    'children' => []
+                ],
+                (object)[
+                    'name' => 'Contact',
+                    'link_url' => '#',
+                    'children' => []
+                ]
+            ],
+            'phone' => '075 5555 5555',
+            'style' => (object)[
+                'container_1_clr' => '0,0,0',
+                'container_2_clr' => '50,50,50',
+                'txt_clr' => '255,255,255',
+                'logo_width' => '200px'
+            ] 
+        ];
+        include "../_INC/Headers/purlin-navbar/purlin-navbar.php";
     ?>
     <hr/>
 </body>
