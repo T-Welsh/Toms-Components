@@ -1,0 +1,30 @@
+/*Got To Top Btn v1.0.0*/
+.tc-go-to-top-anchor {
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    pointer-events: none;
+}
+.tc-go-to-top-btn {
+    position: fixed;
+    z-index: 1000;
+    bottom: var(--tc-go-to-top-btn-bottom);
+    right: var(--tc-go-to-top-btn-right);
+    border-radius: 25%;
+    /*width: 30px;
+    height: 30px;*/
+    padding: 0.5rem;
+    background-color: magenta;
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.tc-go-to-top-btn * {
+    color: white;
+}

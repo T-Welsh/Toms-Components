@@ -33,6 +33,7 @@
 - split-hero v1.0.0
 - block-gallery v1.0.0
 - purlin-navbar v1.0.0
+- go-to-top-btn
 
 
 ## Rewrites
