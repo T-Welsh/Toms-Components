@@ -15,16 +15,17 @@
     z-index: 1000;
     bottom: var(--tc-go-to-top-btn-bottom);
     right: var(--tc-go-to-top-btn-right);
-    border-radius: 25%;
+    border-radius: var(--tc-go-to-top-btn-border-radius);
+    border: var(--tc-go-to-top-btn-border);
     /*width: 30px;
     height: 30px;*/
-    padding: 0.5rem;
-    background-color: magenta;
-    color: white;
+    padding: var(--tc-go-to-top-btn-padding);
+    background-color: var(--tc-go-to-top-btn-background-color);
+    color: var(--tc-go-to-top-btn-color);
     display: none;
     justify-content: center;
     align-items: center;
 }
 .tc-go-to-top-btn * {
-    color: white;
+    color: var(--tc-go-to-top-btn-color);
 }
