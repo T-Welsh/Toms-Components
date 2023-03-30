@@ -1,0 +1,49 @@
+/*========================  main.css ========================*/
+/*#region main.css*/
+.spacer {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--topnav-height);
+    background-color: transparent;
+}
+#content {
+    overflow: hidden;
+}
+/*============ Headings ============*/
+h1,
+h2,
+.h2 {
+    text-align: center;
+    color: rgb(var(--clr-text-dark));
+    font-size: var(--fs-2000);
+    font-weight: var(--fw-bold);
+}
+h3,
+.h3 {
+    text-align: center;
+    color: rgb(var(--clr-text-dark));
+    font-size: var(--fs-1500);
+    font-weight: var(--fw-semi-bold);
+}
+/*============ Buttons ============*/
+.button {
+    padding-block: 0.7rem;
+    padding-inline: 1rem;
+    width: fit-content;
+    min-width: 120px;
+    background-color: rgb(var(--clr-accent));
+    color: rgb(var(--clr-text-light));
+    font-weight: var(--fw-semi-bold);;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover,
+.button:focus-visible{
+    background-color: rgb(var(--clr-text-dark));;
+    color: rgb(var(--clr-text-light));
+}
+/*#endregion*/

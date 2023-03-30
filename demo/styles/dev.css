@@ -1,0 +1,24 @@
+/*======================== dev.css ========================*/
+/*#region dev.css*/
+.placeholder {
+    color: cyan;
+    background-color: magenta;
+    /*outline: 1px solid red;*/
+    font-family: 'Courier New', Courier, monospace;
+}
+.phpdevconsole {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 1rem;
+    color: green;
+    background-color: black;
+    /*outline: 1px solid red;*/
+    font-family: 'Courier New', Courier, monospace;
+}
+/*#endregion*/
